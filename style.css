@@ -31,6 +31,78 @@ body {
     src: url('./asset/NeueMachina-Ultrabold.otf');
 }
 
+
+header {
+    margin: 0 auto;
+}
+
+nav {
+    max-width: 1396px;
+    padding: 8px 10px;
+    margin: 31px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 201px;
+    height: 24px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 38px;
+    align-items: center;
+}
+
+.nav-items li {
+    list-style: none;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    font-family: var(--font-Euclid);
+    font-weight: var(--font-base-weight);
+    font-size: 13px;
+    color: #fff;
+}
+
+.mobile-btn {
+    display: none;
+}
+
+.desktop-btn {
+    padding: 12px 16px;
+    background: #fff;
+    border-radius: 6px;
+    color: #01A590;
+    font-family: var(--font-Euclid);
+    font-weight: var(--font-base-weight);
+    font-size: var(--font-base-size);
+    line-height: 16px;
+    border: none;
+}
+
+/* HAMBURGER (HIDDEN ON DESKTOP) */
+.toggle-btn {
+    width: 28px;
+    height: 22px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.toggle-btn span {
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    transition: 0.3s;
+}
+
+
+/* 
 header {
     margin: 0 auto;
 }
@@ -88,7 +160,7 @@ nav {
     line-height: 16px;
     letter-spacing: 0%;
     border: none;
-}
+} */
 
 /* hero */
 .hero {
@@ -244,7 +316,7 @@ nav {
 
 .as-p {
     font-family: var(--font-Euclid);
-    font-weight:var(--font-base-weight);
+    font-weight: var(--font-base-weight);
     font-size: 16px;
     line-height: 130%;
     letter-spacing: 0%;
@@ -302,8 +374,8 @@ nav {
 }
 
 .dapp-icon {
-    max-width: 64px;
-    max-height: 64px;
+    width: 64px;
+    height: 64px;
 }
 
 .dapp-card-title {
@@ -359,6 +431,7 @@ nav {
 }
 
 .future-card-container {
+    /* width: 1440px; */
     padding-left: 80px;
     margin-bottom: 425px;
     display: flex;
@@ -822,7 +895,7 @@ nav {
     z-index: 0;
 }
 
-.agency-bg {
+.agency-bg1 {
     position: absolute;
     font-family: var(--font-neue-machina);
     font-weight: 900;
@@ -836,6 +909,9 @@ nav {
     left: 11.5%;
     background: transparent;
     width: 1103px;
+}
+.agency-bg{
+    display: none;
 }
 
 .rec-1 {
@@ -1624,4 +1700,700 @@ footer {
 .f-icons img {
     width: 24px;
     height: 24px;
+}
+
+
+
+
+
+/* 576px  */
+
+@media (max-width: 576px) {
+
+    nav {
+        padding: 6px 12px;
+        margin-top: 18px;
+    }
+
+    .logo img {
+        width: 150px;
+        height: auto;
+    }
+
+    .toggle-btn {
+        display: flex;
+        width: 26px;
+        height: 20px;
+        z-index: 20;
+    }
+
+    .nav-items {
+        position: absolute;
+        top: 12%;
+        right: 0;
+        width: 50%;
+        background: black;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 25px 0;
+        display: none;
+    }
+
+    .nav-items.active {
+        display: flex;
+        z-index: 2;
+    }
+
+    .nav-items li a {
+        font-size: 12px;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .mobile-btn button {
+        padding: 12px 16px;
+        background: #fff;
+        color: #01A590;
+        border-radius: 6px;
+        border: none;
+        font-size: 14px;
+    }
+
+    /* hero */
+    .hero {
+        margin-top: -14.5%;
+    }
+
+    .hero-container {
+        padding-top: 48px;
+        padding-left: 16px;
+    }
+
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .he-com-btn {
+        width: 106.33px !important;
+        padding-left: 10.17px;
+        padding-right: 10.17px;
+    }
+
+    .hero-desc {
+        font-size: 16px;
+        padding-left: 0;
+    }
+
+    .title-btn,
+    .h-btns,
+    .hero-community {
+        padding-left: 0;
+    }
+
+    .btn-1 {
+        max-width: 124px;
+    }
+
+    .btn-2 {
+        max-width: 163px;
+    }
+
+    .her-img {
+        position: relative;
+    }
+
+    .her-img img {
+        max-width: 100%;
+    }
+
+    /* dapp */
+    .gamesta-dapp-container {
+        max-width: 100%;
+        padding: 0 16px;
+    }
+
+    .dapp {
+        max-width: 325px;
+        font-size: 40px;
+        text-align: center;
+        padding-left: 0;
+        font-family: Neue Machina;
+        line-height: 100%;
+        letter-spacing: 10%;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+
+    .dapp-p {
+        font-size: 20px;
+        max-width: 334px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .group {
+        width: 30%;
+        top: 2%;
+        right: 9%;
+    }
+
+    .dapp-card-container {
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        row-gap: 32px;
+    }
+
+    .dapp-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dap-icon-div {
+        text-align: center;
+    }
+
+    /* play2earn */
+    .play2earn {
+        max-width: 100%;
+        padding: 0 16px;
+    }
+
+    .play-2-card-container {
+        grid-template-columns: 1fr;
+        row-gap: 48px;
+    }
+
+    .play-card {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .play-card:nth-child(odd) {
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .play-card:nth-child(even) {
+        text-align: right;
+        align-items: flex-end;
+    }
+
+    /* carosel */
+    .game-title,
+    .carosel {
+        padding-left: 16px;
+    }
+
+    /* eco */
+    .eco-container {
+        max-width: 100%;
+        padding: 0 16px;
+        margin-bottom: 122px;
+    }
+
+    .eco {
+        font-size: 40px;
+        padding-left: 0;
+    }
+
+    .eco-content {
+        padding-left: 0;
+    }
+
+    .eco1 {
+        padding-left: 31% !important;
+    }
+
+    .eco-para {
+        font-size: 18px;
+    }
+
+    .gsg-p-1 {
+        font-size: 16px;
+        margin-left: 21%;
+        max-width: 272px;
+    }
+
+    .gsg-container {
+        max-width: 100%;
+    }
+
+    .gsg {
+        max-width: 55%;
+        margin-top: 68%;
+    }
+
+    .text {
+        width: 74%;
+        top: 77%;
+        right: -3%;
+    }
+
+    .gsg-p-2 {
+        bottom: -14%;
+        left: 0%;
+        width: 207px;
+        font-size: 12px;
+    }
+
+    /* distribution */
+    .distribution-container {
+        max-width: 100%;
+        padding: 0 16px;
+        margin-bottom: 60px;
+    }
+
+    .dist-title {
+        font-size: 24px;
+    }
+
+    .distribution-content {
+        flex-direction: column;
+        max-width: 100%;
+        padding-top: 34px;
+    }
+
+    .content-1 img,
+    .content-2 img {
+        max-width: 100%;
+    }
+
+    .dist-p {
+        left: 11% !important;
+        top: 10% !important;
+        font-size: 16px;
+    }
+
+    .dist-p1 {
+        padding-left: 0 !important;
+    }
+
+    .percent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 54px;
+        row-gap: 54px;
+    }
+
+    /* agency */
+    .agency-container {
+        max-width: 100%;
+        padding: 016px;
+    }
+
+    .back {
+        max-width: 100%;
+    }
+
+    .artboard {
+        width: 42%;
+        left: 31%;
+        top: 2%;
+    }
+
+    .agent-desc {
+        top: 46%;
+        left: 27%;
+        font-size: 10px;
+        width: 177px;
+    }
+
+    .agent-para {
+        top: 59%;
+        max-width: 291px;
+        left: 14%;
+        font-size: 8px;
+    }
+
+    .a-btn-div {
+        bottom: 12%;
+    }
+
+    .agency-button {
+        font-size: 5.15px;
+        width: 64.43px;
+        height: 18.08px;
+        border-radius: 1.93px;
+    }
+
+    .rec-1 {
+        width: 29.14px;
+        right: 4%;
+        top: 0%;
+    }
+
+    .rec-2 {
+        width: 29.14px;
+        bottom: 13%;
+        left: 4%;
+    }
+    .agency-bg1{
+        display: none;
+    }
+    .agency-bg{
+        position: absolute;
+        display: block;
+        top: 12%;
+        left: 5%;
+    }
+
+    /* incubation */
+    .incubation{
+        max-width: 100%;
+        padding:  0 16px;
+    }
+    .in-title{
+        font-size: 40px;
+    }
+    .incubation-content{
+        padding-left: 0;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .tick-list{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    nav {
+        padding: 6px 12px;
+        margin-top: 18px;
+    }
+
+    .logo img {
+        width: 150px;
+        height: auto;
+    }
+
+    .toggle-btn {
+        display: flex;
+        width: 26px;
+        height: 20px;
+        z-index: 20;
+    }
+
+    .nav-items {
+        position: absolute;
+        top: 12%;
+        right: 0;
+        width: 50%;
+        background: black;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 25px 0;
+        display: none;
+    }
+
+    .nav-items.active {
+        display: flex;
+        z-index: 2;
+    }
+
+    .nav-items li a {
+        font-size: 12px;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .mobile-btn button {
+        padding: 12px 16px;
+        background: #fff;
+        color: #01A590;
+        border-radius: 6px;
+        border: none;
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    nav {
+        max-width: 100%;
+    }
+
+    .logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-items {
+        gap: 10px;
+    }
+
+    .nav-items a {
+        font-size: 10px !important;
+
+    }
+
+    .hero {
+        margin-top: -12.5%;
+    }
+
+
+    /* dapp */
+    .gamesta-dapp-container {
+        max-width: 100%;
+        padding: 010px;
+    }
+
+    .dapp-card-container {
+        column-gap: 50px;
+    }
+
+
+    /* future */
+    .future-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .future-title {
+        font-size: 60px;
+        text-align: start;
+    }
+
+    .f-btn-div {
+        text-align: start;
+    }
+
+    .future-card-container {
+        padding: 0 10px;
+    }
+
+    .f-card-1,
+    .f-card-2,
+    .f-card-3,
+    .f-card-4 {
+        width: 100px;
+        height: 100%;
+        padding: 18px;
+    }
+
+    .f-card-icon {
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+    .f-card-p {
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    /* play2earn */
+    .play-bg {
+        max-width: 100%;
+    }
+
+    .play2earn {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .play-2-card-container {
+        column-gap: 15px;
+        row-gap: 15px;
+    }
+
+    .ad-p-1 {
+        font-size: 12px;
+    }
+
+    .dapp-icon {
+        max-width: 48px;
+        max-height: 48px;
+    }
+
+    .play-card {
+        width: 100%;
+    }
+
+    /* eco */
+    .eco-container {
+        max-width: 100%;
+    }
+
+    .eco {
+        font-size: 60px;
+    }
+
+    .eco-content {
+        padding-left: 15%;
+    }
+
+    .gsg-container {
+        max-width: 100%;
+    }
+
+    .gsg {
+        max-width: 90%;
+    }
+
+    .text {
+        right: -25%;
+        max-width: 80%;
+    }
+
+    /* distribution */
+    .distribution-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .content-1 img,
+    .content-2 img {
+        max-width: 50%;
+    }
+
+    .dist-p {
+        left: 25% !important;
+    }
+
+
+    /* agency  */
+    .agency-container {
+        max-width: 100%;
+    }
+
+    .back {
+        max-width: 100%;
+    }
+
+    .agency-bg img {
+        max-width: 100%;
+    }
+
+    .artboard {
+        max-width: 50%;
+        left: 25%;
+    }
+
+    .agent-desc {
+        left: 21%;
+        top: 51%;
+    }
+
+    .agent-para {
+        top: 70%;
+        left: 14%;
+    }
+
+    .rec-2 {
+        left: 1%;
+    }
+
+    /* incubation */
+    .in-title {
+        font-size: 60px;
+    }
+
+    .incubation {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+
+    /* technical */
+    .technical-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .t-card {
+        width: 100%;
+    }
+
+    /*gamesta  */
+    .gamesta-card-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .gamesta-3 {
+        margin-left: 0;
+    }
+
+    .gamesta-card-1 img {
+        max-width: 50%;
+    }
+
+    .gamesta-2 {
+        margin-top: 0;
+    }
+
+    /* advisor */
+    .advisors-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .advisor-card img {
+        max-width: 60%;
+    }
+
+    /* partner */
+    .partner {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .partner-icon {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .gamesta-blog-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .gamesta-blog-card,
+    .gamesta-blog-card img {
+        max-width: 100%;
+    }
+
+    .community-container {
+        margin-top: 179.6px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .f-content-container {
+        gap: 15px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1450px) and (max-width: 2560px) {
+
+    .future-card-container {
+        width: 1145px;
+        padding-left: 80px;
+        margin-bottom: 425px;
+        display: flex;
+        /* flex-wrap: wrap; */
+        position: relative;
+    }
+
+    .technical-card-container {
+        width: 1174px;
+    }
 }
