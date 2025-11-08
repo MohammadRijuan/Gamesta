@@ -2202,6 +2202,7 @@ footer {
         padding-left: 0;
         text-align: center;
         font-size: 16px;
+        margin-bottom: 35.63px;
     }
 
     .tick-list {
@@ -2248,6 +2249,21 @@ footer {
     }
     .black-p span{
         text-underline-offset: 3px;
+    }
+
+    /* technical */
+    .technical-container{
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+    }
+    .technical-title{
+        font-size: 24px;
+        letter-spacing: 10% !important;
+        margin-bottom: 20px;
+    }
+    .technical-card-container{
+        max-width: 100%;
+        column-gap: 28.92px;
     }
 }
 
