@@ -1768,7 +1768,7 @@ footer {
 
     .nav-items {
         position: absolute;
-        top: 12%;
+        top: 6%;
         right: 0;
         width: 50%;
         background: black;
@@ -1777,6 +1777,11 @@ footer {
         gap: 20px;
         padding: 25px 0;
         display: none;
+        border-radius: 10px;
+    }
+
+    .mobile-btn {
+        display: block;
     }
 
     .nav-items.active {
@@ -1809,6 +1814,7 @@ footer {
     .hero-container {
         padding-top: 48px;
         padding-left: 16px;
+        max-height: 100%;
     }
 
     .hero-title {
@@ -1842,6 +1848,7 @@ footer {
 
     .her-img {
         position: relative;
+        /* bottom: -60%; */
     }
 
     .her-img img {
@@ -1857,7 +1864,12 @@ footer {
     /* dapp */
     .gamesta-dapp-container {
         max-width: 100%;
-        padding: 0 16px;
+        padding: 0 16px 70px 16px;
+    }
+
+    .svg-3 {
+        top: 3.5%;
+        left: -66%;
     }
 
     .dapp {
@@ -1870,6 +1882,7 @@ footer {
         letter-spacing: 10%;
         text-align: center;
         text-transform: uppercase;
+        padding-top: 10%;
 
     }
 
@@ -1882,7 +1895,7 @@ footer {
 
     .group {
         width: 30%;
-        top: 2%;
+        top: 4%;
         right: 9%;
     }
 
@@ -1906,10 +1919,12 @@ footer {
     .future-container {
         max-width: 100%;
         padding: 0 16px 0 16px;
+        margin-top: 59px;
     }
 
     .future-card-container {
         padding-left: 0;
+        margin-bottom: 67%;
     }
 
     .future-title {
@@ -2004,6 +2019,32 @@ footer {
     .play2earn {
         max-width: 100%;
         padding: 0 16px;
+    }
+
+    .play-bg {
+        width: 359px;
+        height: 63.63px;
+        background-image: url('./asset/Play\ 2\ Earn\ \(1\).png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .play-head {
+        font-size: 30.21px;
+        margin: 0;
+        padding-top: 4%;
+    }
+
+    .play-info {
+        text-align: start;
+        font-size: 18px;
+        margin-top: 23.8px;
+    }
+
+    .play-details {
+        padding-left: 6%;
+        font-size: 14px;
     }
 
     .play-2-card-container {
@@ -2107,6 +2148,11 @@ footer {
         max-width: 100%;
     }
 
+    .svg-4 {
+        top: -45%;
+        transform: rotate(66deg);
+    }
+
     .dist-p {
         left: 11% !important;
         top: 10% !important;
@@ -2192,6 +2238,7 @@ footer {
     .incubation {
         max-width: 100%;
         padding: 0 16px;
+        margin-top: 60px;
     }
 
     .in-title {
@@ -2240,250 +2287,342 @@ footer {
         top: 74% !important;
         left: 26% !important;
     }
-    .black-p-container{
+
+    .black-p-container {
         margin: 0;
     }
-    .card-img{
+
+    .card-img {
         max-width: 76% !important;
         right: -6%;
     }
-    .black-p span{
+
+    .black-p span {
         text-underline-offset: 3px;
     }
 
     /* technical */
-    .technical-container{
+    .technical-container {
         max-width: 100%;
         padding: 0 16px 0 16px;
     }
-    .technical-title{
+
+    .technical-title {
         font-size: 24px;
         letter-spacing: 10% !important;
         margin-bottom: 20px;
     }
-    .technical-card-container{
+
+    .technical-card-container {
         max-width: 100%;
         column-gap: 28.92px;
-        row-gap: 50.25px;
+        row-gap: 37.25px;
     }
-    .tech-card{
+
+    .tech-card {
         width: 85.12px;
     }
-    .t-card{
+
+    .t-card {
         width: 85.12px;
         padding: 5.69px 5.69px 5.38px 5.12px;
         border-radius: 0 3.79px 3.79px 3.79px;
     }
-    .q{
+
+    .q {
         width: 48.79px;
         font-size: 7.01px;
-        padding:4.86px 5.9px 3.5px 5.9px;
+        padding: 4.86px 5.9px 3.5px 5.9px;
         border-radius: 3.79px 3.79px 0 0;
     }
-    .t-p1{
+
+    .t-p1 {
         font-size: 4.67px;
     }
-    .t-p{
+
+    .t-p {
         font-size: 4.67px;
         padding-top: 7.58px;
     }
+
     .t-s {
         font-size: 3.8px;
     }
-    .t-head h6{
+
+    .t-head h6 {
         width: 18.41px;
         height: 7.3px;
         padding: 2.48px 4.98px 0 4.98px;
         font-size: 3.21px;
         border-radius: 0 3.79px 0 0;
     }
-    .svg-01{
+
+    .svg-01 {
         width: 25.34px;
         top: 40%;
         right: -46%;
     }
+
+    .svg-02 {
+        width: 25.34px !important;
+        top: 40%;
+        right: -46%;
+    }
+
+    .svg-03 {
+        width: 271.34px !important;
+        height: 38.27px !important;
+        top: 96%;
+        left: -269%;
+    }
+
+    .svg-04 {
+        width: 25.34px !important;
+        top: 40%;
+        right: -46%;
+    }
+
+    .svg-05 {
+        width: 25.34px !important;
+        top: 40%;
+        right: -46%;
+    }
+
+    .svg-06 {
+        width: 271.42px !important;
+        height: 66.66px !important;
+    }
+
+    .svg-07 {
+        width: 25.34px !important;
+        top: 40%;
+        right: -46%;
+    }
+
+    .svg-08 {
+        width: 25.34px !important;
+        top: 40%;
+        right: -46%;
+    }
+
+
+    .black-p {
+        font-size: 10px;
+        max-width: 103px;
+    }
+
+    .black-bg {
+        max-height: 213px;
+    }
+
+    .card-img {
+        max-width: 100%;
+        top: 0%;
+    }
+
+    /* gamesta team */
+    .team-advise-partner {
+        clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+    }
+
+    .gamesta-team-container {
+        max-width: 100%;
+        padding-top: 63px;
+    }
+
+    .gamesta-team-container h1 {
+        font-size: 40px;
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .gamesta-card-container {
+        padding: 0 16px 0 16px;
+        flex-direction: column;
+    }
+
+    .gamesta-3 {
+        margin-left: 0;
+    }
+
+    /* advisor */
+    .advisors-container {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+    }
+
+    .advisor-card-container {
+        flex-direction: column;
+    }
+
+    .advisor-card {
+        max-width: 100%;
+    }
+
+    /* partner */
+    .partner {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+
+    }
+
+    .partner-icon {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .icon {
+        width: 100%;
+    }
+
+    /* blog */
+    .blog-join {
+        clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+        margin-top: 60px;
+
+    }
+
+    .gamesta-blog-container {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+    }
+
+    .gamesta-logo {
+        padding-top: 60px;
+        width: 242px;
+    }
+
+    .blog {
+        font-size: 48px;
+        padding-left: 39%;
+    }
+
+    .gamesta-blog-card-container {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gamesta-blog-card,
+    .gamesta-blog-card img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    /* join */
+    .join {
+        width: 344.66px;
+        height: 100%;
+        background-image: url('./asset/Vector (13).png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0 16px 0 16px;
+    }
+
+    .community-container {
+        max-width: 100%;
+        margin-top: 0;
+        /* padding-top: 0; */
+        /* padding-top: 10% !important; */
+        /* padding-bottom: 0; */
+    }
+
+    .community {
+        max-width: 100%;
+        font-size: 25.48px;
+        max-width: 208px;
+        margin: 0 auto;
+        padding-top: 12%;
+    }
+
+    .tweet {
+        max-width: 53.29px;
+        max-height: 35.84px;
+        top: 27%;
+
+    }
+
+    .tg {
+        max-width: 53.29px;
+        max-height: 35.84px;
+        top: 50%;
+        right: 0%;
+    }
+
+    .yt {
+        max-width: 62.45px;
+        max-height: 35.84px;
+        top: 38%;
+        right: 7%;
+    }
+
+    .svg-1,
+    .svg-2 {
+        display: none;
+    }
+
+    /* footer */
+    footer {
+        clip-path: polygon(0 11%, 33% 5%, 35% 10%, 100% 2%, 100% 16%, 100% 15%, 100% 100%, 82% 100%, 85% 100%, 15% 100%, 19% 100%, 0 100%);
+        height: 352px;
+
+    }
+
+    .footer-container {
+        flex-direction: column-reverse;
+        padding: 0 16px 0 16px;
+        /* align-items: flex-end; */
+        /* height: 352px; */
+        position: relative;
+    }
+
+    .logo-copyright img {
+        display: none;
+    }
+
+    .logo-copyright {
+        padding-bottom: 20px;
+        padding-top: 14%;
+        padding-left: 69%;
+
+    }
+
+    .f-content-container {
+        padding-top: 0;
+        padding-bottom: 0;
+        gap: 53px;
+        position: relative;
+    }
+
+    .f-icon-btn {
+        padding-top: 0;
+    }
+
+    .logo-copyright p {
+        text-align: right;
+    }
+
+    .f-icons {
+        padding-top: 42%;
+    }
+
+    .f-icon-btn {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .f-d-btn {
+        position: absolute;
+        bottom: 6%;
+        left: 5%;
+    }
+
 }
 
-.black-p {
-    font-size: 10px;
-    max-width: 103px;
-}
 
-.black-bg {
-    max-height: 213px;
-}
-
-.card-img {
-    max-width: 100%;
-    top: 0%;
-}
-
-/* gamesta team */
-.team-advise-partner {
-    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
-}
-
-.gamesta-team-container {
-    max-width: 100%;
-    padding-top: 63px;
-}
-
-.gamesta-team-container h1 {
-    font-size: 40px;
-    padding-left: 0;
-    text-align: center;
-}
-
-.gamesta-card-container {
-    padding: 0 16px 0 16px;
-    flex-direction: column;
-}
-
-.gamesta-3 {
-    margin-left: 0;
-}
-
-/* advisor */
-.advisors-container {
-    max-width: 100%;
-    padding: 0 16px 0 16px;
-}
-
-.advisor-card-container {
-    flex-direction: column;
-}
-
-.advisor-card {
-    max-width: 100%;
-}
-
-/* partner */
-.partner {
-    max-width: 100%;
-    padding: 0 16px 0 16px;
-
-}
-
-.partner-icon {
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.icon {
-    width: 100%;
-}
-
-/* blog */
-.blog-join {
-    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
-    margin-top: 60px;
-
-}
-
-.gamesta-blog-container {
-    max-width: 100%;
-    padding: 0 16px 0 16px;
-}
-
-.gamesta-logo {
-    padding-top: 60px;
-    width: 242px;
-}
-
-.blog {
-    font-size: 48px;
-    padding-left: 39%;
-}
-
-.gamesta-blog-card-container {
-    max-width: 100%;
-    flex-direction: column;
-}
-
-.gamesta-blog-card,
-.gamesta-blog-card img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-/* join */
-.join {
-    width: 100%;
-    height: 100%;
-    background-image: url('./asset/Vector (13).png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0 16px 0 16px;
-}
-
-.community-container {
-    max-width: 100%;
-    margin-top: 0;
-    /* padding-top: 0; */
-    /* padding-top: 10% !important; */
-    /* padding-bottom: 0; */
-}
-
-.community {
-    max-width: 100%;
-    font-size: 25.48px;
-    max-width: 208px;
-    margin: 0 auto;
-    padding-top: 12%;
-}
-
-.tweet {
-    max-width: 53.29px;
-    max-height: 35.84px;
-    top: 27%;
-
-}
-
-.tg {
-    max-width: 53.29px;
-    max-height: 35.84px;
-    top: 50%;
-    right: 0%;
-}
-
-.yt {
-    max-width: 53.29px;
-    max-height: 35.84px;
-    top: 29%;
-    right: 20%;
-}
-
-.svg-1,
-.svg-2 {
-    display: none;
-}
-
-.footer-container {
-    flex-direction: column-reverse;
-    padding: 0 16px 0 16px;
-    align-items: flex-start;
-    /* height: 352px; */
-}
-
-.logo-copyright img {
-    display: none;
-}
-
-.logo-copyright {
-    padding-bottom: 20px;
-}
-
-.f-content-container {
-    padding-top: 0;
-    padding-bottom: 0;
-    gap: 54px;
-}
-
-.f-icon-btn {}
-
-}
 
 
 
@@ -2507,7 +2646,7 @@ footer {
 
     .nav-items {
         position: absolute;
-        top: 12%;
+        top: 6%;
         right: 0;
         width: 50%;
         background: black;
@@ -2516,6 +2655,11 @@ footer {
         gap: 20px;
         padding: 25px 0;
         display: none;
+        border-radius: 10px;
+    }
+
+    .mobile-btn {
+        display: block;
     }
 
     .nav-items.active {
@@ -2538,6 +2682,829 @@ footer {
         border-radius: 6px;
         border: none;
         font-size: 14px;
+    }
+
+    /* hero */
+    .hero {
+        margin-top: -14.5%;
+    }
+
+    .hero-container {
+        padding-top: 48px;
+        padding-left: 16px;
+    }
+
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .he-com-btn {
+        width: 106.33px !important;
+        padding-left: 10.17px;
+        padding-right: 10.17px;
+    }
+
+    .hero-desc {
+        font-size: 16px;
+        padding-left: 0;
+    }
+
+    .title-btn,
+    .h-btns,
+    .hero-community {
+        padding-left: 0;
+    }
+
+    .btn-1 {
+        max-width: 124px;
+    }
+
+    .btn-2 {
+        max-width: 163px;
+    }
+
+    .her-img {
+        position: relative;
+    }
+
+    .her-img img {
+        max-width: 100%;
+    }
+
+    .img-2 {
+        width: 70%;
+        top: 5%;
+        right: 6%;
+    }
+
+    /* dapp */
+    .gamesta-dapp-container {
+        max-width: 100%;
+        padding: 0 16px 70px 16px;
+    }
+
+    .svg-3 {
+        top: 3.5%;
+        left: -66%;
+    }
+
+    .dapp {
+        max-width: 325px;
+        font-size: 40px;
+        text-align: center;
+        padding-left: 0;
+        font-family: Neue Machina;
+        line-height: 100%;
+        letter-spacing: 10%;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 10%;
+
+    }
+
+    .dapp-p {
+        font-size: 20px;
+        max-width: 334px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .group {
+        width: 30%;
+        top: 4%;
+        right: 9%;
+    }
+
+    .dapp-card-container {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dapp-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dap-icon-div {
+        text-align: center;
+    }
+
+
+    /* future */
+    .future-container {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+        margin-top: 59px;
+        width: 370px;
+    }
+
+    .future-card-container {
+        padding-left: 0;
+        margin-bottom: 67%;
+    }
+
+    .future-title {
+        font-size: 30px;
+        max-width: 201px;
+    }
+
+    .f-btn-div {
+        text-align: start;
+        max-width: 182px;
+    }
+
+    .future-btn {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .f-card-icon {
+        width: 15.45894718170166px;
+        height: 12.560563087463379px;
+        opacity: 1;
+    }
+
+    .card-1 {
+        width: 99px;
+        height: 66px;
+        bottom: 0%;
+        border-radius: 12.88px;
+        padding: 8px 9px;
+        left: 19%;
+        top: 112%;
+    }
+
+    .card-2 {
+        width: 68px;
+        height: 37px;
+        border-radius: 12.88px;
+        padding: 29px 6px 8px 6px;
+        top: -47%;
+    }
+
+    .card-3 {
+        width: 114px;
+        height: 56.46px;
+        border-radius: 12.88px;
+        padding: 16px 12px;
+        right: 0%;
+
+    }
+
+    .card-4 {
+        width: 45.54px;
+        height: 37px;
+        padding: 15px 28.36px 6px 6px;
+        border-radius: 12.88px;
+        margin-top: 15.47px;
+
+    }
+
+    .card-5 {
+        width: 70px;
+        height: 37px;
+        padding: 8px;
+        border-radius: 12.88px;
+        top: 25%;
+    }
+
+    .card-6 {
+        width: 100px;
+        height: 49px;
+        padding: 8px 10px 5px 10px;
+        top: 235%;
+        left: 0%;
+        border-radius: 12.88px;
+    }
+
+    .card-7 {
+        width: 71px;
+        height: 50px;
+        padding: 9px;
+        border-radius: 12.88px;
+        top: -171%;
+        right: 4%;
+    }
+
+    .f-card-p {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    /* play2earn */
+    .play2earn {
+        max-width: 100%;
+        padding: 0 16px;
+    }
+
+    .play-bg {
+        margin: 0 auto;
+        width: 359px;
+        height: 63.63px;
+        background-image: url('./asset/Play\ 2\ Earn\ \(1\).png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .play-head {
+        font-size: 30.21px;
+        margin: 0;
+        padding-top: 4%;
+    }
+
+    .play-info {
+        text-align: start;
+        font-size: 18px;
+        margin-top: 23.8px;
+    }
+
+    .play-details {
+        padding-left: 6%;
+        font-size: 14px;
+    }
+
+    .play-2-card-container {
+        grid-template-columns: 1fr;
+        row-gap: 48px;
+    }
+
+    .play-card {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .play-card:nth-child(odd) {
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .play-card:nth-child(even) {
+        text-align: right;
+        align-items: flex-end;
+    }
+
+    /* carosel */
+    .game-title,
+    .carosel {
+        padding-left: 16px;
+    }
+
+    /* eco */
+    .eco-container {
+        max-width: 100%;
+        padding: 0 16px;
+        margin-bottom: 122px;
+    }
+
+    .eco {
+        font-size: 40px;
+        padding-left: 0;
+    }
+
+    .eco-content {
+        padding-left: 0;
+    }
+
+    .eco1 {
+        padding-left: 31% !important;
+    }
+
+    .eco-para {
+        font-size: 18px;
+    }
+
+    .gsg-p-1 {
+        font-size: 16px;
+        margin-left: 21%;
+        max-width: 272px;
+    }
+
+    .gsg-container {
+        max-width: 100%;
+    }
+
+    .gsg {
+        max-width: 55%;
+        margin-top: 30%;
+    }
+
+    .text {
+        width: 74%;
+        top: 77%;
+        right: -3%;
+    }
+
+    .gsg-p-2 {
+        bottom: -14%;
+        left: 0%;
+        width: 207px;
+        font-size: 12px;
+    }
+
+    /* distribution */
+    .distribution-container {
+        max-width: 100%;
+        padding: 0 16px;
+        margin-bottom: 60px;
+    }
+
+    .dist-title {
+        font-size: 24px;
+    }
+
+    .distribution-content {
+        flex-direction: column;
+        max-width: 100%;
+        padding-top: 34px;
+    }
+
+    .content-1 img,
+    .content-2 img {
+        max-width: 100%;
+    }
+
+    .svg-4 {
+        top: -45%;
+        left: 37%;
+        transform: rotate(73deg);
+    }
+
+    .dist-p {
+        left: 11% !important;
+        top: 10% !important;
+        font-size: 16px;
+    }
+
+    .dist-p1 {
+        padding-left: 0 !important;
+    }
+
+    .percent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 54px;
+        row-gap: 54px;
+    }
+
+    /* agency */
+    .agency-container {
+        max-width: 100%;
+        padding: 016px;
+    }
+
+    .back {
+        max-width: 100%;
+    }
+
+    .artboard {
+        width: 42%;
+        left: 31%;
+        top: 2%;
+    }
+
+    .agent-desc {
+        top: 46%;
+        left: 21%;
+        font-size: 14px;
+    }
+
+    .agent-para {
+        top: 59%;
+        max-width: 430px;
+        left: 23%;
+        font-size: 12px;
+    }
+
+    .a-btn-div {
+        bottom: 12%;
+        left: 48%;
+    }
+
+    .agency-button {
+        font-size: 6.15px;
+        width: 71.43px;
+        height: 22.08px;
+        border-radius: 1.93px;
+    }
+
+    .rec-1 {
+        width: 29.14px;
+        right: 4%;
+        top: 0%;
+    }
+
+    .rec-2 {
+        width: 29.14px;
+        bottom: 13%;
+        left: 4%;
+    }
+
+    .agency-bg1 {
+        display: none;
+    }
+
+    .agency-bg {
+        position: absolute;
+        display: block;
+        top: 24%;
+        left: 30%;
+    }
+
+    /* incubation */
+    .incubation {
+        max-width: 100%;
+        padding: 0 16px;
+        margin-top: 60px;
+    }
+
+    .in-title {
+        font-size: 40px;
+    }
+
+    .incubation-content {
+        padding-left: 0;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 35.63px;
+    }
+
+    .tick-list {
+        grid-template-columns: 1fr;
+    }
+
+    .tick-list li::before {
+        left: 16%
+    }
+
+    /* black */
+    .black-container {
+        max-width: 100%;
+        padding: 0 54.56px 0;
+        height: 213.13px;
+
+    }
+
+    .black {
+        height: 100%;
+    }
+
+    .black-1 {
+        position: absolute;
+        top: 40%;
+        font-size: 24px;
+    }
+
+    .black-2 {
+        top: 58% !important;
+        left: 9% !important;
+    }
+
+    .black-3 {
+        top: 74% !important;
+        left: 26% !important;
+    }
+
+    .black-p-container {
+        margin: 0;
+    }
+
+    .card-img {
+        max-width: 32% !important;
+        right: 5%;
+        top: 16%;
+    }
+
+    .black-p span {
+        text-underline-offset: 3px;
+    }
+
+    /* technical */
+    .technical-container {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+    }
+
+    .technical-title {
+        font-size: 24px;
+        letter-spacing: 10% !important;
+        margin-bottom: 20px;
+    }
+
+    .technical-card-container {
+        max-width: 100%;
+        column-gap: 28.92px;
+        row-gap: 37.25px;
+    }
+
+    .tech-card {
+        width: 85.12px;
+    }
+
+    .t-card {
+        width: 120px;
+        padding: 5.69px 5.69px 5.38px 5.12px;
+        border-radius: 0 3.79px 3.79px 3.79px;
+    }
+
+    .q {
+        width: 48.79px;
+        font-size: 7.01px;
+        padding: 4.86px 5.9px 3.5px 5.9px;
+        border-radius: 3.79px 3.79px 0 0;
+    }
+
+    .t-p1 {
+        font-size: 8.67px;
+    }
+
+    .t-p {
+        font-size: 8.67px;
+        padding-top: 7.58px;
+    }
+
+    .t-s {
+        font-size: 3.8px;
+    }
+
+    .t-head h6 {
+        width: 18.41px;
+        height: 7.3px;
+        padding: 2.48px 4.98px 0 4.98px;
+        font-size: 3.21px;
+        border-radius: 0 3.79px 0 0;
+    }
+
+    .svg-01 {
+        width: 25.34px;
+        top: 40%;
+        right: -46%;
+    }
+
+    .svg-02 {
+        width: 25.34px !important;
+        top: 40%;
+        right: -46%;
+    }
+
+    .svg-03 {
+        width: 271.34px !important;
+        height: 38.27px !important;
+        top: 96%;
+        left: -269%;
+    }
+
+    .svg-04 {
+        width: 25.34px !important;
+        top: 40%;
+        right: -46%;
+    }
+
+    .svg-05 {
+        width: 25.34px !important;
+        top: 40%;
+        right: -46%;
+    }
+
+    .svg-06 {
+        width: 271.42px !important;
+        height: 66.66px !important;
+    }
+
+    .svg-07 {
+        width: 25.34px !important;
+        top: 40%;
+        right: -46%;
+    }
+
+    .svg-08 {
+        width: 25.34px !important;
+        top: 40%;
+        right: -46%;
+    }
+
+
+    .black-p {
+        font-size: 10px;
+        max-width: 103px;
+    }
+
+    .black-bg {
+        max-height: 213px;
+    }
+
+
+
+    /* gamesta team */
+    .team-advise-partner {
+        clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+    }
+
+    .gamesta-team-container {
+        max-width: 100%;
+        padding-top: 63px;
+    }
+    .gamesta-2{
+        margin-top: 0;
+    }
+
+    .gamesta-card-1 {
+        max-height: 100%;
+    }
+
+    .gamesta-team-container h1 {
+        font-size: 40px;
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .gamesta-card-container {
+        padding: 0 16px 0 16px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gamesta-3 {
+        margin-left: 0;
+    }
+
+    /* advisor */
+    .advisors-container {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+    }
+
+    .advisor-card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .advisor-card {
+        max-width: 100%;
+    }
+
+    /* partner */
+    .partner {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+
+    }
+
+    .partner-icon {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .icon {
+        width: 100%;
+    }
+
+    /* blog */
+    .blog-join {
+        clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+        margin-top: 60px;
+
+    }
+
+    .gamesta-blog-container {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+    }
+
+    .gamesta-logo {
+        padding-top: 60px;
+        width: 242px;
+    }
+
+    .blog {
+        font-size: 48px;
+        padding-left: 39%;
+    }
+
+    .gamesta-blog-card-container {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gamesta-blog-card,
+    .gamesta-blog-card img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    /* join */
+    .join {
+        width: 344.66px;
+        height: 100%;
+        background-image: url('./asset/Vector (13).png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0 16px 0 16px;
+    }
+
+    .community-container {
+        max-width: 100%;
+        margin-top: 0;
+        /* padding-top: 0; */
+        /* padding-top: 10% !important; */
+        /* padding-bottom: 0; */
+    }
+
+    .community {
+        max-width: 100%;
+        font-size: 25.48px;
+        max-width: 208px;
+        margin: 0 auto;
+        padding-top: 12%;
+    }
+
+    .tweet {
+        max-width: 53.29px;
+        max-height: 35.84px;
+        top: 27%;
+
+    }
+
+    .tg {
+        max-width: 53.29px;
+        max-height: 35.84px;
+        top: 50%;
+        right: 0%;
+    }
+
+    .yt {
+        max-width: 62.45px;
+        max-height: 35.84px;
+        top: 38%;
+        right: 7%;
+    }
+
+    .svg-1,
+    .svg-2 {
+        display: none;
+    }
+
+    /* footer */
+    footer {
+        clip-path: polygon(0 11%, 33% 5%, 35% 10%, 100% 2%, 100% 16%, 100% 15%, 100% 100%, 82% 100%, 85% 100%, 15% 100%, 19% 100%, 0 100%);
+        height: 352px;
+
+    }
+
+    .footer-container {
+        flex-direction: column-reverse;
+        padding: 0 16px 0 16px;
+        /* align-items: flex-end; */
+        /* height: 352px; */
+        position: relative;
+    }
+
+    .logo-copyright img {
+        display: none;
+    }
+
+    .logo-copyright {
+        padding-bottom: 20px;
+        padding-top: 8%;
+        padding-left: 69%;
+
+    }
+
+    .f-content-container {
+        padding-top: 0;
+        padding-bottom: 0;
+        gap: 53px;
+        position: relative;
+    }
+
+    .f-icon-btn {
+        padding-top: 0;
+    }
+
+    .logo-copyright p {
+        text-align: right;
+    }
+
+    .f-icons {
+        padding-top: 42%;
+    }
+
+    .f-icon-btn {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .f-d-btn {
+        position: absolute;
+        bottom: 6%;
+        left: 5%;
     }
 }
 
