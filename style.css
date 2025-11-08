@@ -34,6 +34,8 @@ body {
 
 header {
     margin: 0 auto;
+    position: relative;
+    z-index:1111111;
 }
 
 nav {
@@ -48,6 +50,7 @@ nav {
 .logo img {
     width: 201px;
     height: 24px;
+    cursor: pointer;
 }
 
 .nav-items {
@@ -66,6 +69,11 @@ nav {
     font-weight: var(--font-base-weight);
     font-size: 13px;
     color: #fff;
+    cursor: pointer;
+    transition: text-decoration 0.3s ease;
+}
+.nav-items li a:hover{
+    text-decoration: underline;
 }
 
 .mobile-btn {
@@ -82,9 +90,15 @@ nav {
     font-size: var(--font-base-size);
     line-height: 16px;
     border: none;
+    transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
-/* HAMBURGER (HIDDEN ON DESKTOP) */
+.desktop-btn:hover{
+    transform: scale(1.1);
+}
+
+
 .toggle-btn {
     width: 28px;
     height: 22px;
@@ -164,13 +178,15 @@ nav {
 
 /* hero */
 .hero {
-    background-image: url('./asset/Rectangle\ 28.png');
+    background-image: url('./asset/Rectangle\ 28\ \(1\).png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 732px;
     margin-top: -7.5%;
     /* background: #F5F9FA; */
+    z-index: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 0% 100%);
 }
 
 .hero-container {
@@ -179,6 +195,7 @@ nav {
     margin: 0 auto;
     padding-left: 132px;
     position: relative;
+    
 }
 
 .her-img {
@@ -189,7 +206,8 @@ nav {
 }
 
 .img-1 {
-    position: relative;
+    /* position: relative; */
+    z-index: 2;
 }
 
 .img-2 {
@@ -206,6 +224,7 @@ nav {
     letter-spacing: 0%;
     color: #FFFFFF;
     /* margin: 0; */
+    margin-bottom: 40px;
 }
 
 .hero-desc {
@@ -218,7 +237,7 @@ nav {
     color: #FFFFFF;
     width: 442px;
     padding-left: 68px;
-    margin-bottom: 41px;
+    margin-bottom: 40px;
 }
 
 .title-btn {
@@ -254,6 +273,8 @@ nav {
     align-items: center;
     gap: 10px;
     justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 
 
 }
@@ -274,7 +295,14 @@ nav {
     align-items: center;
     gap: 10px;
     justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
+
+.btn-1:hover,.btn-2:hover,.he-com-btn:hover{
+    transform: scale(1.1);
+}
+
 
 .hero-community {
     padding-left: 68px;
@@ -301,6 +329,8 @@ nav {
     gap: 10px;
     height: 56px;
     justify-content: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 
@@ -360,6 +390,7 @@ nav {
     text-transform: uppercase;
     color: var(--font-primary-font-color);
     position: relative;
+    margin-bottom: 11px;
 }
 
 .dapp-p {
@@ -372,6 +403,7 @@ nav {
     color: var(--font-primary-font-color);
     padding-left: 15%;
     /* margin: 0 auto; */
+    margin-top: 0;
 }
 
 .dapp-card-container {
@@ -3768,6 +3800,28 @@ footer {
     .f-content-container {
         gap: 15px;
     }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1350px){
+    .hero{
+        margin-top: -9.5%;
+    }
+    .hero-container{
+        padding-left: 10px;
+    }
+    .her-img{
+        max-width: 100%;
+    }
+    .img-1{
+        max-width: 70%;
+        top: 0%;
+        right: -33%;
+    }
+    .img-2{
+        max-width: 53%;
+    }
+    
+
 }
 
 
