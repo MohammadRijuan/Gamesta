@@ -170,6 +170,7 @@ nav {
     background-size: cover;
     height: 732px;
     margin-top: -7.5%;
+    /* background: #F5F9FA; */
 }
 
 .hero-container {
@@ -185,6 +186,16 @@ nav {
     padding-right: 50px;
     bottom: -27%;
     right: 0%;
+}
+
+.img-1 {
+    position: relative;
+}
+
+.img-2 {
+    position: absolute;
+    top: 8%;
+    right: -3%;
 }
 
 .hero-title {
@@ -296,6 +307,10 @@ nav {
 /* dapp bg */
 .dapp-bg {
     background: #F5F9FA;
+    /* height: 1168px; */
+    /* clip-path: polygon(0 15%, 16% 13%, 100% 2%, 100% 0, 100% 17%, 100% 20%, 100% 100%, 82% 100%, 85% 100%, 100% 100%, 100% 86%, 0 100%); */
+
+    /* margin-top: -12%; */
 
 }
 
@@ -305,6 +320,8 @@ nav {
     margin: 0 auto;
     padding: 123px 133px 0 195px;
     position: relative;
+
+
 }
 
 .svg-3 {
@@ -910,7 +927,8 @@ nav {
     background: transparent;
     width: 1103px;
 }
-.agency-bg{
+
+.agency-bg {
     display: none;
 }
 
@@ -1073,10 +1091,29 @@ nav {
 
 /* black */
 .black {
-    background: #1B1F21;
+    /* background: #1B1F21; */
     height: 911px;
-    clip-path: polygon(0 1%, 17% 3%, 100% 15%, 100% 15%, 71% 13%, 100% 15%, 100% 82%, 85% 85%, 85% 85%, 57% 89%, 56% 82%, 0 92%);
+
     position: relative;
+    /* z-index: -1; */
+    overflow: visible;
+    clip-path: polygon(0 0, 15% 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 79%, 85% 79%, 100% 79%, 58% 89%, 56% 82%, 0 92%);
+
+
+
+
+}
+
+.black-bg {
+    background: #1B1F21;
+    /* clip-path: polygon(0 1%, 17% 3%, 100% 15%, 100% 15%, 71% 13%, 100% 15%, 100% 82%, 85% 85%, 85% 85%, 57% 89%, 56% 82%, 0 92%); */
+    /* clip-path: polygon(0 1%, 17% 3%, 100% 15%, 100% 15%, 71% 13%, 100% 15%, 100% 82%, 85% 85%, 85% 85%, 57% 89%, 56% 82%, 0 92%); */
+    clip-path: polygon(0 7%, 100% 20%, 100% 100%, 0 100%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
     z-index: -1;
 }
 
@@ -1084,7 +1121,8 @@ nav {
     max-width: 1610px;
     max-height: 911px;
     margin: 0 auto;
-    padding: 0 234px 0 262.66px;
+    padding: 0 234px 0 150.66px;
+    overflow: visible;
 }
 
 .black-title {
@@ -1128,9 +1166,10 @@ nav {
 
 .card-img {
     position: absolute;
-    top: 45%;
-    right: 0%;
-    z-index: 1;
+    top: 2%;
+    right: -14%;
+    z-index: 9999;
+    /* display: none; */
 }
 
 
@@ -1809,6 +1848,12 @@ footer {
         max-width: 100%;
     }
 
+    .img-2 {
+        width: 70%;
+        top: 5%;
+        right: 6%;
+    }
+
     /* dapp */
     .gamesta-dapp-container {
         max-width: 100%;
@@ -2032,10 +2077,12 @@ footer {
         bottom: 13%;
         left: 4%;
     }
-    .agency-bg1{
+
+    .agency-bg1 {
         display: none;
     }
-    .agency-bg{
+
+    .agency-bg {
         position: absolute;
         display: block;
         top: 12%;
@@ -2043,21 +2090,198 @@ footer {
     }
 
     /* incubation */
-    .incubation{
+    .incubation {
         max-width: 100%;
-        padding:  0 16px;
+        padding: 0 16px;
     }
-    .in-title{
+
+    .in-title {
         font-size: 40px;
     }
-    .incubation-content{
+
+    .incubation-content {
         padding-left: 0;
         text-align: center;
         font-size: 16px;
     }
 
-    .tick-list{
+    .tick-list {
         grid-template-columns: 1fr;
+    }
+
+    .tick-list li::before {
+        left: 16%
+    }
+
+    /* black */
+    .black-container {
+        max-width: 100%;
+        padding: 0 54.56px 0;
+
+    }
+
+    .black-1 {
+        font-size: 24px;
+    }
+
+    .black-p {
+        font-size: 10px;
+        max-width: 103px;
+    }
+
+    .black-bg {
+        max-height: 213px;
+    }
+
+    .card-img {
+        max-width: 100%;
+        top: 0%;
+    }
+
+    /* gamesta team */
+    .team-advise-partner {
+        clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+    }
+
+    .gamesta-team-container {
+        max-width: 100%;
+        padding-top: 63px;
+    }
+
+    .gamesta-team-container h1 {
+        font-size: 40px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .gamesta-card-container {
+        padding: 0 16px 0 16px;
+        flex-direction: column;
+    }
+
+    .gamesta-3 {
+        margin-left: 0;
+    }
+
+    /* advisor */
+    .advisors-container {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+    }
+
+    .advisor-card-container {
+        flex-direction: column;
+    }
+
+    .advisor-card {
+        max-width: 100%;
+    }
+
+    /* partner */
+    .partner {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+
+    }
+
+    .partner-icon {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .icon {
+        width: 100%;
+    }
+
+    /* blog */
+    .blog-join {
+        clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+        margin-top: 60px;
+
+    }
+
+    .gamesta-blog-container {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+    }
+
+    .gamesta-logo {
+        padding-top: 60px;
+        width: 242px;
+    }
+
+    .blog {
+        font-size: 48px;
+        padding-left: 39%;
+    }
+
+    .gamesta-blog-card-container {
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .gamesta-blog-card,
+    .gamesta-blog-card img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    /* join */
+    .join {
+        width: 100%;
+        height: 100%;
+        background-image: url('./asset/Vector (13).png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0 16px 0 16px;
+    }
+
+    .community-container {
+        max-width: 100%;
+        margin-top: 0;
+        /* padding-top: 0; */
+        /* padding-top: 10% !important; */
+        /* padding-bottom: 0; */
+    }
+
+    .community {
+        max-width: 100%;
+        font-size: 25.48px;
+        max-width: 208px;
+        margin: 0 auto;
+        padding-top: 12%;
+    }
+
+    .tweet {
+        max-width: 53.29px;
+        max-height: 35.84px;
+        top: 27%;
+
+    }
+
+    .tg {
+        max-width: 53.29px;
+        max-height: 35.84px;
+        top: 50%;
+        right: 0%;
+    }
+
+    .yt {
+        max-width: 53.29px;
+        max-height: 35.84px;
+        top: 29%;
+        right: 20%;
+    }
+
+    .svg-1,
+    .svg-2 {
+        display: none;
+    }
+
+    .footer-container{
+        flex-direction: column;
     }
 
 }
@@ -2395,5 +2619,10 @@ footer {
 
     .technical-card-container {
         width: 1174px;
+    }
+
+    .black-container {
+        width: 1055px;
+        padding: 0 151px 0 200px;
     }
 }
