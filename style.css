@@ -2282,6 +2282,23 @@ footer {
 
     .footer-container{
         flex-direction: column;
+        padding: 0 16px 0 16px;
+        align-items: flex-start;
+        /* height: 352px; */
+    }
+
+    .logo-copyright img{
+        display: none;
+    }
+
+    .logo-copyright {
+        padding-bottom: 20px;
+    }
+
+    .f-content-container{
+        padding-top: 0;
+        padding-bottom: 0;
+        gap: 54px;
     }
 
 }
