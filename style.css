@@ -1901,6 +1901,105 @@ footer {
         text-align: center;
     }
 
+
+    /* future */
+    .future-container {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+    }
+
+    .future-card-container {
+        padding-left: 0;
+    }
+
+    .future-title {
+        font-size: 30px;
+        max-width: 201px;
+    }
+
+    .f-btn-div {
+        text-align: start;
+        max-width: 182px;
+    }
+
+    .future-btn {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .f-card-icon {
+        width: 15.45894718170166px;
+        height: 12.560563087463379px;
+        opacity: 1;
+    }
+
+    .card-1 {
+        width: 99px;
+        height: 66px;
+        bottom: 0%;
+        border-radius: 12.88px;
+        padding: 8px 9px;
+        left: 19%;
+        top: 112%;
+    }
+
+    .card-2 {
+        width: 68px;
+        height: 37px;
+        border-radius: 12.88px;
+        padding: 29px 6px 8px 6px;
+        top: -47%;
+    }
+
+    .card-3 {
+        width: 114px;
+        height: 56.46px;
+        border-radius: 12.88px;
+        padding: 16px 12px;
+        right: 0%;
+
+    }
+
+    .card-4 {
+        width: 45.54px;
+        height: 37px;
+        padding: 15px 28.36px 6px 6px;
+        border-radius: 12.88px;
+        margin-top: 15.47px;
+
+    }
+
+    .card-5 {
+        width: 70px;
+        height: 37px;
+        padding: 8px;
+        border-radius: 12.88px;
+        top: 25%;
+    }
+
+    .card-6 {
+        width: 100px;
+        height: 49px;
+        padding: 8px 10px 5px 10px;
+        top: 235%;
+        left: 0%;
+        border-radius: 12.88px;
+    }
+
+    .card-7 {
+        width: 71px;
+        height: 50px;
+        padding: 9px;
+        border-radius: 12.88px;
+        top: -171%;
+        right: 4%;
+    }
+
+    .f-card-p {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
     /* play2earn */
     .play2earn {
         max-width: 100%;
@@ -2117,189 +2216,219 @@ footer {
     .black-container {
         max-width: 100%;
         padding: 0 54.56px 0;
+        height: 213.13px;
 
+    }
+
+    .black {
+        height: 100%;
     }
 
     .black-1 {
+        position: absolute;
+        top: 40%;
         font-size: 24px;
     }
 
-    .black-p {
-        font-size: 10px;
-        max-width: 103px;
+    .black-2 {
+        top: 58% !important;
+        left: 9% !important;
     }
 
-    .black-bg {
-        max-height: 213px;
+    .black-3 {
+        top: 74% !important;
+        left: 26% !important;
     }
-
-    .card-img {
-        max-width: 100%;
-        top: 0%;
+    .black-p-container{
+        margin: 0;
     }
-
-    /* gamesta team */
-    .team-advise-partner {
-        clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+    .card-img{
+        max-width: 76% !important;
+        right: -6%;
     }
-
-    .gamesta-team-container {
-        max-width: 100%;
-        padding-top: 63px;
+    .black-p span{
+        text-underline-offset: 3px;
     }
+}
 
-    .gamesta-team-container h1 {
-        font-size: 40px;
-        padding-left: 0;
-        text-align: center;
-    }
+.black-p {
+    font-size: 10px;
+    max-width: 103px;
+}
 
-    .gamesta-card-container {
-        padding: 0 16px 0 16px;
-        flex-direction: column;
-    }
+.black-bg {
+    max-height: 213px;
+}
 
-    .gamesta-3 {
-        margin-left: 0;
-    }
+.card-img {
+    max-width: 100%;
+    top: 0%;
+}
 
-    /* advisor */
-    .advisors-container {
-        max-width: 100%;
-        padding: 0 16px 0 16px;
-    }
+/* gamesta team */
+.team-advise-partner {
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+}
 
-    .advisor-card-container {
-        flex-direction: column;
-    }
+.gamesta-team-container {
+    max-width: 100%;
+    padding-top: 63px;
+}
 
-    .advisor-card {
-        max-width: 100%;
-    }
+.gamesta-team-container h1 {
+    font-size: 40px;
+    padding-left: 0;
+    text-align: center;
+}
 
-    /* partner */
-    .partner {
-        max-width: 100%;
-        padding: 0 16px 0 16px;
+.gamesta-card-container {
+    padding: 0 16px 0 16px;
+    flex-direction: column;
+}
 
-    }
+.gamesta-3 {
+    margin-left: 0;
+}
 
-    .partner-icon {
-        max-width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
+/* advisor */
+.advisors-container {
+    max-width: 100%;
+    padding: 0 16px 0 16px;
+}
 
-    .icon {
-        width: 100%;
-    }
+.advisor-card-container {
+    flex-direction: column;
+}
 
-    /* blog */
-    .blog-join {
-        clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
-        margin-top: 60px;
+.advisor-card {
+    max-width: 100%;
+}
 
-    }
+/* partner */
+.partner {
+    max-width: 100%;
+    padding: 0 16px 0 16px;
 
-    .gamesta-blog-container {
-        max-width: 100%;
-        padding: 0 16px 0 16px;
-    }
+}
 
-    .gamesta-logo {
-        padding-top: 60px;
-        width: 242px;
-    }
+.partner-icon {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
-    .blog {
-        font-size: 48px;
-        padding-left: 39%;
-    }
+.icon {
+    width: 100%;
+}
 
-    .gamesta-blog-card-container {
-        max-width: 100%;
-        flex-direction: column;
-    }
+/* blog */
+.blog-join {
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+    margin-top: 60px;
 
-    .gamesta-blog-card,
-    .gamesta-blog-card img {
-        max-width: 100%;
-        max-height: 100%;
-    }
+}
 
-    /* join */
-    .join {
-        width: 100%;
-        height: 100%;
-        background-image: url('./asset/Vector (13).png');
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 0 16px 0 16px;
-    }
+.gamesta-blog-container {
+    max-width: 100%;
+    padding: 0 16px 0 16px;
+}
 
-    .community-container {
-        max-width: 100%;
-        margin-top: 0;
-        /* padding-top: 0; */
-        /* padding-top: 10% !important; */
-        /* padding-bottom: 0; */
-    }
+.gamesta-logo {
+    padding-top: 60px;
+    width: 242px;
+}
 
-    .community {
-        max-width: 100%;
-        font-size: 25.48px;
-        max-width: 208px;
-        margin: 0 auto;
-        padding-top: 12%;
-    }
+.blog {
+    font-size: 48px;
+    padding-left: 39%;
+}
 
-    .tweet {
-        max-width: 53.29px;
-        max-height: 35.84px;
-        top: 27%;
+.gamesta-blog-card-container {
+    max-width: 100%;
+    flex-direction: column;
+}
 
-    }
+.gamesta-blog-card,
+.gamesta-blog-card img {
+    max-width: 100%;
+    max-height: 100%;
+}
 
-    .tg {
-        max-width: 53.29px;
-        max-height: 35.84px;
-        top: 50%;
-        right: 0%;
-    }
+/* join */
+.join {
+    width: 100%;
+    height: 100%;
+    background-image: url('./asset/Vector (13).png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 16px 0 16px;
+}
 
-    .yt {
-        max-width: 53.29px;
-        max-height: 35.84px;
-        top: 29%;
-        right: 20%;
-    }
+.community-container {
+    max-width: 100%;
+    margin-top: 0;
+    /* padding-top: 0; */
+    /* padding-top: 10% !important; */
+    /* padding-bottom: 0; */
+}
 
-    .svg-1,
-    .svg-2 {
-        display: none;
-    }
+.community {
+    max-width: 100%;
+    font-size: 25.48px;
+    max-width: 208px;
+    margin: 0 auto;
+    padding-top: 12%;
+}
 
-    .footer-container{
-        flex-direction: column;
-        padding: 0 16px 0 16px;
-        align-items: flex-start;
-        /* height: 352px; */
-    }
+.tweet {
+    max-width: 53.29px;
+    max-height: 35.84px;
+    top: 27%;
 
-    .logo-copyright img{
-        display: none;
-    }
+}
 
-    .logo-copyright {
-        padding-bottom: 20px;
-    }
+.tg {
+    max-width: 53.29px;
+    max-height: 35.84px;
+    top: 50%;
+    right: 0%;
+}
 
-    .f-content-container{
-        padding-top: 0;
-        padding-bottom: 0;
-        gap: 54px;
-    }
+.yt {
+    max-width: 53.29px;
+    max-height: 35.84px;
+    top: 29%;
+    right: 20%;
+}
+
+.svg-1,
+.svg-2 {
+    display: none;
+}
+
+.footer-container {
+    flex-direction: column-reverse;
+    padding: 0 16px 0 16px;
+    align-items: flex-start;
+    /* height: 352px; */
+}
+
+.logo-copyright img {
+    display: none;
+}
+
+.logo-copyright {
+    padding-bottom: 20px;
+}
+
+.f-content-container {
+    padding-top: 0;
+    padding-bottom: 0;
+    gap: 54px;
+}
+
+.f-icon-btn {}
 
 }
 
