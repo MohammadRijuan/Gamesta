@@ -2264,6 +2264,43 @@ footer {
     .technical-card-container{
         max-width: 100%;
         column-gap: 28.92px;
+        row-gap: 50.25px;
+    }
+    .tech-card{
+        width: 85.12px;
+    }
+    .t-card{
+        width: 85.12px;
+        padding: 5.69px 5.69px 5.38px 5.12px;
+        border-radius: 0 3.79px 3.79px 3.79px;
+    }
+    .q{
+        width: 48.79px;
+        font-size: 7.01px;
+        padding:4.86px 5.9px 3.5px 5.9px;
+        border-radius: 3.79px 3.79px 0 0;
+    }
+    .t-p1{
+        font-size: 4.67px;
+    }
+    .t-p{
+        font-size: 4.67px;
+        padding-top: 7.58px;
+    }
+    .t-s {
+        font-size: 3.8px;
+    }
+    .t-head h6{
+        width: 18.41px;
+        height: 7.3px;
+        padding: 2.48px 4.98px 0 4.98px;
+        font-size: 3.21px;
+        border-radius: 0 3.79px 0 0;
+    }
+    .svg-01{
+        width: 25.34px;
+        top: 40%;
+        right: -46%;
     }
 }
 
