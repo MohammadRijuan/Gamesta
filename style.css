@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
     --font-neue-machina: 'Neue Machina';
     --font-Euclid: 'Euclid Circular A';
+    --font-abz: "ABeeZee", sans-serif;
     --font-base-weight: 400;
     --font-base-size: 13px;
     --font-primary-size: 16px;
@@ -8,7 +11,6 @@
     --font-20-size: 20px;
     --font-primary-font-color: #273A41;
     --font-secondary-font-color: #00B3E8;
-
 }
 
 
@@ -195,43 +197,66 @@ nav {
 
 /* hero */
 .hero {
-    background-image: url('./asset/Rectangle\ 28\ \(1\).png');
+    position: relative;
+    height: 732px;
+    margin-top: -140px;
+    z-index: 1;
+}
+
+.hero-bg {
+    max-width: 100%;
+    width: 100%;
+    height: 832px;
+    background-image: url('./asset/Rectangle 28 (1).png');
+    clip-path: polygon(0 0, 100% 0, 100% 76%, 0% 97%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 732px;
-    margin-top: -100px;
-    /* background: #F5F9FA; */
-    z-index: 1;
-    clip-path: polygon(0 0, 100% 0, 100% 79%, 0% 100%);
-    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .hero-container {
-    padding-top: 137px;
+    padding-top: 148px;
     max-width: 1440px;
     margin: 0 auto;
     padding-left: 132px;
     position: relative;
-
+    z-index: 3;
 }
+
 
 .her-img {
     position: absolute;
-    padding-right: 50px;
-    bottom: -27%;
-    right: 0%;
+    bottom: -16%;
+    right: 3%;
+    z-index: 7;
 }
 
 .img-1 {
-    /* position: relative; */
-    z-index: 2;
+    width: auto;
+    height: auto;
+    z-index: 6;
+    position: relative;
+    margin-right: 40px;
 }
+
 
 .img-2 {
     position: absolute;
-    top: 8%;
-    right: -3%;
+    top: -35%;
+    right: -5%;
+    z-index: 6;
+}
+
+.img-3 {
+    position: absolute;
+    top: 29%;
+    right: 9%;
+    z-index: 2;
+    /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 93%); */
 }
 
 .hero-title {
@@ -362,6 +387,7 @@ nav {
 
     /* margin-top: -12%; */
     clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 99%);
+    margin-top: -100px;
 
 }
 
@@ -369,7 +395,7 @@ nav {
 .gamesta-dapp-container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 123px 133px 212.79px 195px;
+    padding: 223px 133px 212.79px 195px;
     position: relative;
 
 
@@ -395,7 +421,7 @@ nav {
 .svg-3 {
     position: absolute;
     width: 359px;
-    top: 24%;
+    top: 26%;
     left: 0%;
 }
 
@@ -412,7 +438,7 @@ nav {
 
 .group {
     position: absolute;
-    top: 19%;
+    top: 23%;
     right: 23%;
     width: 184px;
     transform: rotate(-6deg);
@@ -913,12 +939,89 @@ nav {
     /* position: relative; */
 }
 
+.gsg-1 {
+    position: relative;
+    animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.g-the {
+    position: absolute;
+    top: 34%;
+    left: 20%;
+    font-family: var(--font-abz);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    transform: rotate(-5deg)
+}
+
+
+.g-gsg1 {
+    position: absolute;
+    top: 34%;
+    left: 15%;
+    font-family: var(--font-neue-machina);
+    font-weight: 900;
+    font-size: 88px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--font-primary-font-color);
+    transform: rotate(-6deg)
+}
+
 .text {
     position: absolute;
-    top: 42%;
+    top: 53%;
     right: 0%;
     /* bottom: 0%; */
+    width: 882px;
 }
+
+.text h1 {
+    font-family: var(--font-abz);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0em;
+    margin: 0;
+    background: #00B3E8;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    padding: 9.63px 16.75px;
+    transform: rotate(-6deg);
+}
+
+.text-1-div h1 {
+    max-width: 418px;
+
+}
+
+.text-2-div h1 {
+    max-width: 543px;
+    margin-left: 21%;
+    margin-top: -4%;
+
+}
+
+.text-3-div h1 {
+    max-width: 554px;
+    margin-left: 35%;
+    margin-top: -2%;
+}
+
 
 .gsg-p-1 {
     position: absolute;
@@ -932,7 +1035,7 @@ nav {
     color: var(--font-primary-font-color);
     max-width: 404px;
     text-align: start;
-    top: 0%;
+    top: 17%;
     right: 12%;
 }
 
@@ -1065,6 +1168,7 @@ nav {
     text-align: center;
     text-transform: uppercase;
     -webkit-text-stroke: 1px #FFFFFF;
+    opacity: 0.4;
 }
 
 .rec-1 {
@@ -1142,6 +1246,7 @@ nav {
     border-radius: 6px;
     border: none;
     text-align: center;
+    cursor: pointer;
 }
 
 /* incubation */
@@ -1800,7 +1905,7 @@ footer {
     flex-direction: column;
     gap: 20px;
     padding-top: 196px;
-    padding-bottom: 55px;
+    /* padding-bottom: 55px; */
 }
 
 .logo-copyright img {
@@ -1826,7 +1931,7 @@ footer {
     display: flex;
     gap: 120px;
     padding-top: 178px;
-    padding-bottom: 57px;
+    /* padding-bottom: 57px; */
 }
 
 .f-content {
@@ -1852,7 +1957,7 @@ footer {
     align-items: flex-end;
     gap: 29px;
     padding-top: 178px;
-    padding-bottom: 51px;
+    /* padding-bottom: 51px; */
 }
 
 .f-icons {
@@ -1872,8 +1977,9 @@ footer {
 }
 
 .f-icons img {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 16px;
+    opacity: 0.4;
 }
 
 
@@ -1946,6 +2052,10 @@ footer {
         margin-top: -14.5%;
     }
 
+    .hero-bg {
+        clip-path: polygon(0 0, 100% 0, 100% 87.5%, 0% 94%);
+    }
+
     .hero-container {
         padding-top: 48px;
         padding-left: 16px;
@@ -1954,17 +2064,27 @@ footer {
 
     .hero-title {
         font-size: 40px;
+        margin-top: 48px;
+        margin-bottom: 20px;
     }
 
     .he-com-btn {
         width: 106.33px !important;
+        height: 44px;
         padding-left: 10.17px;
         padding-right: 10.17px;
+        font-size: 14px;
+    }
+
+    .he-com-btn img {
+        width: 20px;
+        height: 20px;
     }
 
     .hero-desc {
         font-size: 16px;
         padding-left: 0;
+        max-width: 343px;
     }
 
     .title-btn,
@@ -1982,28 +2102,53 @@ footer {
     }
 
     .her-img {
-        position: relative;
-        /* bottom: -60%; */
+        max-width: 100%;
+        bottom: -13%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
-    .her-img img {
-        max-width: 100%;
+
+
+    .img-1 {
+        margin-right: 0;
+        max-width: 89%;
     }
 
     .img-2 {
-        width: 70%;
-        top: 5%;
-        right: 6%;
+        width: 79%;
+        top: -34%;
+        right: -4%;
+    }
+
+    .img-3 {
+        width: 90%;
+        top: 66%;
+        right: 10%;
     }
 
     /* dapp */
     .gamesta-dapp-container {
         max-width: 100%;
-        padding: 0 16px 70px 16px;
+        padding: 256px 16px 70px 16px;
+        text-align: center;
+    }
+
+    .dapp-bg {
+        clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 99%);
+    }
+
+    .dapp-contain {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .svg-3 {
-        top: 3.5%;
+        top: 17.5%;
         left: -66%;
     }
 
@@ -2025,13 +2170,38 @@ footer {
         font-size: 20px;
         max-width: 334px;
         padding-left: 0;
+
+    }
+
+    .dapp-para {
         text-align: center;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+
     }
 
     .group {
         width: 30%;
-        top: 4%;
+        top: 17.5%;
         right: 9%;
+    }
+
+    .group h6 {
+        padding: 0;
+    }
+
+    .launch,
+    .q4 {
+        width: 60%;
+
+
+    }
+
+    .launch h6,
+    .q4 h6 {
+        font-size: 8.34px;
+        /* padding: 5.47px 9.48px; */
     }
 
     .dapp-card-container {
@@ -2157,18 +2327,21 @@ footer {
     }
 
     .play-bg {
+        height: 100%;
+    }
+
+    .play-head1 {
         width: 359px;
-        height: 63.63px;
-        background-image: url('./asset/Play\ 2\ Earn\ \(1\).png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+        font-size: 45.32px;
+        letter-spacing: 0.1em;
+        opacity: 0.4;
     }
 
     .play-head {
         font-size: 30.21px;
         margin: 0;
-        padding-top: 4%;
+        padding-top: 5%;
+        letter-spacing: 0.1em;
     }
 
     .play-info {
@@ -2237,6 +2410,7 @@ footer {
         font-size: 16px;
         margin-left: 21%;
         max-width: 272px;
+        top: -114%;
     }
 
     .gsg-container {
@@ -2244,18 +2418,56 @@ footer {
     }
 
     .gsg {
-        max-width: 55%;
+        max-width: 100%;
         margin-top: 68%;
+    }
+
+    .gsg-1 {
+        max-width: 55%;
+    }
+
+    .g-the {
+        font-size: 8px;
+
+    }
+
+    .g-gsg1 {
+        font-size: 24px;
     }
 
     .text {
         width: 74%;
-        top: 77%;
+        top: 55%;
         right: -3%;
     }
 
+    .text-1-div h1 {
+        max-width: 43%;
+        font-size: 12px;
+        padding: 3.06px 4.52px 3.58px 9.11px;
+
+    }
+
+    .text-2-div h1 {
+        max-width: 54%;
+        margin-left: 21%;
+        margin-top: -4%;
+        font-size: 12px;
+        padding: 3.06px 4.52px 3.58px 9.11px;
+
+    }
+
+    .text-3-div h1 {
+        max-width: 54%;
+        margin-left: 35%;
+        margin-top: -2%;
+        font-size: 12px;
+        padding: 3.06px 4.52px 3.58px 9.11px;
+    }
+
+
     .gsg-p-2 {
-        bottom: -14%;
+        bottom: -29%;
         left: 0%;
         width: 207px;
         font-size: 12px;
@@ -2359,15 +2571,23 @@ footer {
     }
 
     .agency-bg1 {
-        display: none;
+        /* display: none; */
     }
 
-    .agency-bg {
+    .agency-word {
+        width: 356px;
+        font-size: 67.01px;
+        -webkit-text-stroke: 0.31px #FFFFFF;
+        opacity: 0.4;
+        text-align: center;
+    }
+
+    /* .agency-bg {
         position: absolute;
         display: block;
         top: 12%;
         left: 5%;
-    }
+    } */
 
     /* incubation */
     .incubation {
@@ -2875,7 +3095,7 @@ footer {
     /* dapp */
     .gamesta-dapp-container {
         max-width: 100%;
-        padding: 0 16px 70px 16px;
+        padding: 256px 16px 70px 16px;
     }
 
     .svg-3 {
@@ -2883,25 +3103,38 @@ footer {
         left: -66%;
     }
 
+    .dapp-contain {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .dapp {
         max-width: 325px;
         font-size: 40px;
         text-align: center;
         padding-left: 0;
-        font-family: Neue Machina;
         line-height: 100%;
         letter-spacing: 10%;
         text-align: center;
         text-transform: uppercase;
         padding-top: 10%;
-
     }
 
     .dapp-p {
         font-size: 20px;
         max-width: 334px;
         padding-left: 0;
+
+    }
+
+    .dapp-para {
         text-align: center;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+
     }
 
     .group {
@@ -3116,6 +3349,7 @@ footer {
         font-size: 16px;
         margin-left: 21%;
         max-width: 272px;
+        top: -54%;
     }
 
     .gsg-container {
@@ -3123,14 +3357,52 @@ footer {
     }
 
     .gsg {
-        max-width: 55%;
+        max-width: 100%;
         margin-top: 30%;
+    }
+
+    .gsg-1 {
+        max-width: 55%;
+    }
+
+    .g-the {
+        font-size: 8px;
+        top: 38%;
+        left: 22%;
+    }
+
+    .g-gsg1 {
+        font-size: 24px;
+        top: 41%;
+        left: 20%;
     }
 
     .text {
         width: 74%;
-        top: 77%;
+        top: 55%;
         right: -3%;
+    }
+
+    .text-1-div h1 {
+        max-width: 43%;
+        font-size: 16px;
+        padding: 5.06px 4.52px 5.58px 9.11px;
+    }
+
+    .text-2-div h1 {
+        max-width: 54%;
+        margin-left: 21%;
+        margin-top: -4%;
+        font-size: 16px;
+        padding: 5.06px 4.52px 5.58px 9.11px;
+    }
+
+    .text-3-div h1 {
+        max-width: 54%;
+        margin-left: 35%;
+        margin-top: -2%;
+        font-size: 16px;
+        padding: 5.06px 4.52px 5.58px 9.11px;
     }
 
     .gsg-p-2 {
@@ -3648,6 +3920,7 @@ footer {
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
     nav {
         max-width: 100%;
+        gap: 50px;
     }
 
     .logo img {
@@ -3656,7 +3929,7 @@ footer {
     }
 
     .nav-items {
-        gap: 10px;
+        gap: 8px;
     }
 
     .nav-items a {
@@ -3665,7 +3938,11 @@ footer {
     }
 
     .hero {
-        margin-top: -12.5%;
+        /* margin-top: -12.5%; */
+    }
+
+    .hero-container {
+        padding-left: 10px;
     }
 
 
@@ -3762,14 +4039,64 @@ footer {
     .gsg-container {
         max-width: 100%;
     }
+.gsg {
+        max-width: 100%;
+        margin-top: 30%;
+    }
 
-    .gsg {
-        max-width: 90%;
+    .gsg-1 {
+        max-width: 55%;
+    }
+    .gsg-p-1{
+        top: -48%;
+        right: 0%;
+    }
+
+    .g-the {
+        font-size: 14px;
+        top: 34%;
+        left: 20%;
+    }
+
+    .g-gsg1 {
+        font-size: 40px;
+        top: 36%;
+        left: 17%;
     }
 
     .text {
-        right: -25%;
-        max-width: 80%;
+        width: 74%;
+        top: 55%;
+        right: -3%;
+    }
+
+    .text-1-div h1 {
+        max-width: 43%;
+        font-size: 20px;
+        padding: 5.06px 4.52px 5.58px 9.11px;
+    }
+
+    .text-2-div h1 {
+        max-width: 54%;
+        margin-left: 21%;
+        margin-top: -4%;
+        font-size: 20px;
+        padding: 5.06px 4.52px 5.58px 9.11px;
+    }
+
+    .text-3-div h1 {
+        max-width: 54%;
+        margin-left: 35%;
+        margin-top: -2%;
+        font-size: 20px;
+        padding: 5.06px 4.52px 5.58px 9.11px;
+    }
+
+    .gsg-p-2 {
+        bottom: -14%;
+        left: 0%;
+        width: 207px;
+        font-size: 12px;
     }
 
     /* distribution */
@@ -3907,6 +4234,15 @@ footer {
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1350px) {
+    nav {
+        max-width: 100%;
+        gap: 60px;
+    }
+
+    .nav-items {
+        gap: 10px;
+    }
+
     .hero {
         margin-top: -9.5%;
     }
@@ -3917,6 +4253,9 @@ footer {
 
     .her-img {
         max-width: 100%;
+        bottom: -8%;
+        right: 3%;
+        z-index: 7;
     }
 
     .img-1 {
@@ -3926,7 +4265,15 @@ footer {
     }
 
     .img-2 {
-        max-width: 53%;
+        max-width: 57%;
+        top: -30%;
+        right: -9%;
+    }
+
+    .img-3 {
+        max-width: 43%;
+        top: 40%;
+        right: 3%;
     }
 
 
