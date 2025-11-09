@@ -35,7 +35,7 @@ body {
 header {
     margin: 0 auto;
     position: relative;
-    z-index:1111111;
+    z-index: 1111111;
 }
 
 nav {
@@ -72,7 +72,12 @@ nav {
     cursor: pointer;
     transition: text-decoration 0.3s ease;
 }
-.nav-items li a:hover{
+
+.nav-items li a:before{
+    
+}
+
+.nav-items li a:hover {
     text-decoration: underline;
 }
 
@@ -94,7 +99,7 @@ nav {
     cursor: pointer;
 }
 
-.desktop-btn:hover{
+.desktop-btn:hover {
     transform: scale(1.1);
 }
 
@@ -195,7 +200,7 @@ nav {
     margin: 0 auto;
     padding-left: 132px;
     position: relative;
-    
+
 }
 
 .her-img {
@@ -299,7 +304,9 @@ nav {
     transition: transform 0.3s ease;
 }
 
-.btn-1:hover,.btn-2:hover,.he-com-btn:hover{
+.btn-1:hover,
+.btn-2:hover,
+.he-com-btn:hover {
     transform: scale(1.1);
 }
 
@@ -354,6 +361,22 @@ nav {
 
 }
 
+.group h6 {
+    font-family: var(--font-Euclid);
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    padding: 9.63px 8.5px;
+    background: #00B3E8;
+    color: #FFFFFF;
+    margin: 0;
+    border: none;
+}
+
+
+
 .svg-3 {
     position: absolute;
     width: 359px;
@@ -376,6 +399,20 @@ nav {
     position: absolute;
     top: 19%;
     right: 23%;
+    width: 184px;
+    transform: rotate(-6deg);
+}
+
+.launch{
+    width: 154px;
+    text-align: center;
+}
+.q4{
+    width: 113px;
+    margin-left: 35% !important;
+    border: none;
+    margin-top: -3%;
+    text-align: center;
 }
 
 .dapp {
@@ -3339,7 +3376,8 @@ footer {
         max-width: 100%;
         padding-top: 63px;
     }
-    .gamesta-2{
+
+    .gamesta-2 {
         margin-top: 0;
     }
 
@@ -3802,25 +3840,29 @@ footer {
     }
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1350px){
-    .hero{
+@media only screen and (min-width: 1025px) and (max-width: 1350px) {
+    .hero {
         margin-top: -9.5%;
     }
-    .hero-container{
+
+    .hero-container {
         padding-left: 10px;
     }
-    .her-img{
+
+    .her-img {
         max-width: 100%;
     }
-    .img-1{
+
+    .img-1 {
         max-width: 70%;
         top: 0%;
         right: -33%;
     }
-    .img-2{
+
+    .img-2 {
         max-width: 53%;
     }
-    
+
 
 }
 
