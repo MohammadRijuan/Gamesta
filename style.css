@@ -62,6 +62,7 @@ nav {
     gap: 37.5px;
     align-items: center;
     padding-left: 0;
+    height: 13px;
 }
 
 .nav-items li {
@@ -219,7 +220,7 @@ nav {
 }
 
 .hero-container {
-    padding-top: 148px;
+    padding-top: 125px;
     max-width: 1440px;
     margin: 0 auto;
     padding-left: 132px;
@@ -253,10 +254,16 @@ nav {
 
 .img-3 {
     position: absolute;
-    top: 29%;
-    right: 9%;
+    top: 41%;
+    right: 42%;
     z-index: 2;
     /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 93%); */
+}
+
+.img-4{
+    position: absolute;
+    top: -45%;
+    left: 14%;
 }
 
 .hero-title {
@@ -268,6 +275,7 @@ nav {
     color: #FFFFFF;
     /* margin: 0; */
     margin-bottom: 40px;
+    margin-top: 66px;
 }
 
 .hero-desc {
@@ -280,7 +288,7 @@ nav {
     color: #FFFFFF;
     width: 442px;
     padding-left: 68px;
-    margin-bottom: 40px;
+    margin-bottom: 44px;
 }
 
 .title-btn {
@@ -298,6 +306,7 @@ nav {
     display: flex;
     gap: 12px;
     padding-left: 68px;
+    margin-bottom: 41px;
 }
 
 .btn-1 {
@@ -483,6 +492,7 @@ nav {
     padding-left: 15%;
     /* margin: 0 auto; */
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .dapp-card-container {
@@ -540,6 +550,7 @@ nav {
     text-align: right;
     color: var(--font-primary-font-color);
     max-width: 643px;
+    margin-top: 49.21px;
     margin-bottom: 29px;
 }
 
@@ -691,6 +702,13 @@ nav {
     max-width: 1440px;
     padding: 0 133px 0 180px;
     margin: 0 auto;
+    position: relative;
+}
+
+.play-svg {
+    position: absolute;
+    top: 13%;
+    right: 0%;
 }
 
 .play-bg {
@@ -699,7 +717,7 @@ nav {
     /* background-image: url('./asset/Play\ 2\ Earn.png'); */
     color: transparent;
 
-    margin: 0 auto 15px auto;
+    margin: 0 auto 18px auto;
     position: relative;
 }
 
@@ -768,7 +786,7 @@ nav {
     column-gap: 112px;
     row-gap: 69px;
     padding-top: 56px;
-    padding-bottom: 87px;
+    padding-bottom: 133px;
 }
 
 .play-card {
@@ -899,7 +917,7 @@ nav {
 .eco-container {
     max-width: 1440px;
     padding: 0 136.03px 0 32px;
-    margin: 144px auto 0 auto;
+    margin: 0 auto 0 auto;
 }
 
 .eco {
@@ -1036,7 +1054,7 @@ nav {
     max-width: 404px;
     text-align: start;
     top: 17%;
-    right: 12%;
+    right: 11%;
 }
 
 .gsg-p-2 {
@@ -1049,7 +1067,7 @@ nav {
     text-align: right;
     color: var(--font-primary-font-color);
     max-width: 270px;
-    bottom: 6%;
+    bottom: 4%;
     left: 0%;
 
 }
@@ -1061,7 +1079,7 @@ nav {
 .distribution-container {
     max-width: 1440px;
     padding: 0 160.99px 0 102.63px;
-    margin: 0 auto 177.26px auto;
+    margin: 0 auto 160.26px auto;
 }
 
 .dist-title {
@@ -1073,6 +1091,8 @@ nav {
     letter-spacing: 0%;
     text-align: center;
     color: var(--font-primary-font-color);
+    margin-top: 42px;
+    margin-bottom: 0;
 
 
 }
@@ -1085,12 +1105,17 @@ nav {
     line-height: 140%;
     letter-spacing: 0%;
     color: var(--font-primary-font-color);
+    margin-top: 32.77px;
+}
+
+.dist-p1 {
+    margin-bottom: 36.79px !important;
 }
 
 .distribution-content {
     display: flex;
     justify-content: space-between;
-    gap: 42.11px;
+    gap: 110.11px;
     padding-top: 82.44px;
 }
 
@@ -1129,6 +1154,21 @@ nav {
     text-align: center;
     position: relative;
 }
+
+.ag-svg-1 {
+    position: absolute;
+    left: 0%;
+    top: 48%;
+    z-index: 1111;
+}
+
+.ag-svg-2 {
+    position: absolute;
+    right: 0%;
+    top: 48%;
+    z-index: 111;
+}
+
 
 .back {
     position: relative;
@@ -1219,7 +1259,7 @@ nav {
     text-align: center;
     color: #FFFFFF;
     top: 62%;
-    left: 27%;
+    left: 27.5%;
     margin: 0 auto;
 }
 
@@ -1254,15 +1294,22 @@ nav {
     max-width: 1440px;
     margin: 169.42px auto 0 auto;
     padding: 0 169px 0 144px;
+    position: relative;
+}
+
+.in-svg {
+    position: absolute;
+    bottom: 33%;
+    left: 0%;
 }
 
 .in-title {
     font-family: var(--font-neue-machina);
     font-weight: 500;
-    font-style: Medium;
+    font-style: Medium !important;
     font-size: 96px;
     line-height: 120%;
-    letter-spacing: 0%;
+    letter-spacing: 0em;
     color: var(--font-primary-font-color);
     text-align: center;
     margin-top: 0;
@@ -1286,6 +1333,7 @@ nav {
     letter-spacing: 0%;
     margin: 0;
     color: var(--font-primary-font-color);
+    max-width: 873px;
 }
 
 .servic {
@@ -1355,6 +1403,18 @@ nav {
     top: 0;
     left: 0;
     z-index: -1;
+}
+
+.blac-sv-1 {
+    position: absolute;
+    bottom: 20%;
+    left: 0%;
+}
+
+.blac-sv-2 {
+    position: absolute;
+    top: 33%;
+    right: -4%;
 }
 
 .black-container {
@@ -1531,6 +1591,7 @@ nav {
 }
 
 .t-head h6 {
+    font-family: var(--font-neue-machina);
     margin: 0;
     width: 33px;
     height: 12px;
@@ -1695,7 +1756,7 @@ nav {
 
 .partner {
     max-width: 1440px;
-    padding: 0 133px 62px 133px;
+    padding: 60px 133px 62px 133px;
     margin: 0 auto;
 }
 
@@ -1722,7 +1783,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 32px;
-    row-gap: 20px;
+    row-gap: 23px;
 
 }
 
@@ -1748,7 +1809,7 @@ nav {
 .gamesta-blog-container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 114.19px 133px 110.47px 133px;
+    padding: 114.19px 133px 67.47px 133px;
 }
 
 .gamesta-logo {
@@ -1817,7 +1878,7 @@ nav {
 .community-container {
     max-width: 781px;
     max-height: 192px;
-    margin: 179.6px auto 0 auto;
+    margin: 85.6px auto 0 auto;
     padding-top: 69.13px;
     padding-bottom: 151.63px;
     position: relative;
@@ -1887,7 +1948,7 @@ nav {
 footer {
     background: #273A41;
     height: 322px;
-    clip-path: polygon(0 39%, 31% 24%, 32% 42%, 100% 0, 100% 0, 100% 15%, 100% 100%, 84% 100%, 85% 100%, 15% 100%, 15% 100%, 0 100%);
+    clip-path: polygon(0 39%, 26% 24%, 28% 42%, 100% 0, 100% 0, 100% 15%, 100% 100%, 84% 100%, 85% 100%, 15% 100%, 15% 100%, 0 100%);
 
 }
 
@@ -1897,7 +1958,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 0 90px 0 46px;
+    padding: 20.19px 90px 0 46px;
 }
 
 .logo-copyright {
@@ -2053,7 +2114,8 @@ footer {
     }
 
     .hero-bg {
-        clip-path: polygon(0 0, 100% 0, 100% 87.5%, 0% 94%);
+        clip-path: polygon(0 0, 100% 0, 100% 86.5%, 0% 94%);
+        height: 844px;
     }
 
     .hero-container {
@@ -2124,9 +2186,14 @@ footer {
     }
 
     .img-3 {
-        width: 90%;
-        top: 66%;
-        right: 10%;
+        width: 31%;
+        top: 70%;
+        left: 0% !important;
+    }
+    .img-4 {
+        width: 70%;
+        top: -43%;
+        left: 20%;
     }
 
     /* dapp */
@@ -2326,6 +2393,11 @@ footer {
         padding: 0 16px;
     }
 
+    .play-svg {
+        top: 1%;
+        right: -38%;
+    }
+
     .play-bg {
         height: 100%;
     }
@@ -2517,10 +2589,24 @@ footer {
         row-gap: 54px;
     }
 
+    /* games */
+    .games-svg {
+        display: none;
+    }
+
     /* agency */
     .agency-container {
         max-width: 100%;
         padding: 016px;
+    }
+
+    .ag-svg-1 {
+        left: -58%;
+    }
+
+    .ag-svg-2 {
+        top: 35%;
+        right: -56%;
     }
 
     .back {
@@ -2570,7 +2656,7 @@ footer {
         left: 4%;
     }
 
-    .agency-bg1{
+    .agency-bg1 {
         top: -5%;
         left: 3%;
     }
@@ -2595,6 +2681,10 @@ footer {
         max-width: 100%;
         padding: 0 16px;
         margin-top: 60px;
+    }
+
+    .in-svg {
+        display: none;
     }
 
     .in-title {
@@ -2771,6 +2861,16 @@ footer {
         max-height: 213px;
     }
 
+    .blac-sv-1 {
+        left: -35%;
+        bottom: 3%;
+    }
+
+    .blac-sv-2 {
+        right: -34%;
+        top: 28%;
+    }
+
     .card-img {
         max-width: 100%;
         top: 0%;
@@ -2940,14 +3040,14 @@ footer {
     }
 
     .logo-copyright {
-        padding-bottom: 20px;
-        padding-top: 14%;
+        padding-bottom: 13px;
+        padding-top: 38px;
         padding-left: 69%;
 
     }
 
     .f-content-container {
-        padding-top: 0;
+        padding-top: 48px;
         padding-bottom: 0;
         gap: 53px;
         position: relative;
@@ -2962,7 +3062,7 @@ footer {
     }
 
     .f-icons {
-        padding-top: 42%;
+        padding-top: 95px;
     }
 
     .f-icon-btn {
@@ -3921,7 +4021,7 @@ footer {
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
     nav {
         max-width: 100%;
-        gap: 50px;
+        gap: 40px;
     }
 
     .logo img {
@@ -3940,17 +4040,47 @@ footer {
 
     .hero {
         /* margin-top: -12.5%; */
+        height: 100%;
+    }
+
+    .hero-bg {
+        height: 130%;
+        clip-path: polygon(0 0, 100% 0, 100% 76%, 0% 82%);
     }
 
     .hero-container {
-        padding-left: 10px;
+        padding: 125px 10px 450px 10px;
+    }
+
+    .img-3 {
+        top: 49%;
+        left: 0%;
+    }
+
+    /* blog */
+    .blog-join {
+        clip-path: polygon(0 1%, 17% -8%, 100% -113%, 100% 19%, 71% 13%, 100% 18%, 100% 100%, 84% 100%, 85% 100%, 50% 100%, 53% 100%, 0 100%);
     }
 
 
     /* dapp */
+    .dapp-bg {
+        clip-path: polygon(0 0, 100% 0, 100% 99%, 0% 99%);
+    }
+
     .gamesta-dapp-container {
         max-width: 100%;
-        padding: 010px;
+        padding: 315px 10px 0 10px;
+    }
+
+    .svg-3 {
+        top: 33%;
+        left: -27%;
+    }
+
+    .group {
+        top: 32%;
+        right: 0%;
     }
 
     .dapp-card-container {
@@ -3975,6 +4105,7 @@ footer {
 
     .future-card-container {
         padding: 0 10px;
+        margin-bottom: 245px;
     }
 
     .f-card-1,
@@ -4001,6 +4132,14 @@ footer {
         max-width: 100%;
     }
 
+    .play-head1 {
+        font-size: 110px;
+    }
+
+    .play-head {
+        font-size: 90px;
+    }
+
     .play2earn {
         max-width: 100%;
         padding: 0 10px;
@@ -4009,6 +4148,7 @@ footer {
     .play-2-card-container {
         column-gap: 15px;
         row-gap: 15px;
+        padding-bottom: 0;
     }
 
     .ad-p-1 {
@@ -4040,7 +4180,8 @@ footer {
     .gsg-container {
         max-width: 100%;
     }
-.gsg {
+
+    .gsg {
         max-width: 100%;
         margin-top: 30%;
     }
@@ -4048,7 +4189,8 @@ footer {
     .gsg-1 {
         max-width: 55%;
     }
-    .gsg-p-1{
+
+    .gsg-p-1 {
         top: -48%;
         right: 0%;
     }
@@ -4106,6 +4248,10 @@ footer {
         padding: 0 10px;
     }
 
+    .dist-title {
+        padding-top: 11%;
+    }
+
     .content-1 img,
     .content-2 img {
         max-width: 50%;
@@ -4155,6 +4301,11 @@ footer {
 
     .incubation {
         max-width: 100%;
+        padding: 0 10px;
+    }
+
+    /* black */
+    .black-container {
         padding: 0 10px;
     }
 
@@ -4275,6 +4426,74 @@ footer {
         max-width: 43%;
         top: 40%;
         right: 3%;
+    }
+
+    .gamesta-dapp-container {
+        padding: 160px 10px 0 10px;
+    }
+
+    .future-container {
+        padding: 0 10px;
+    }
+
+    .play2earn {
+        padding: 0 10px;
+    }
+
+    .play-2-card-container {
+        column-gap: 20px;
+    }
+
+    .eco-container {
+        padding: 0 10px;
+    }
+
+    .distribution-container {
+        padding: 0 10px;
+    }
+
+    .distribution-content {
+        gap: 20px;
+    }
+
+    .black-container {
+        padding: 0 10px;
+    }
+
+    .gamesta-card-container,
+    .advisors-container {
+        padding: 0 10px;
+    }
+
+    .partner {
+        padding: 0 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gamesta-blog-container {
+        padding: 0 10px;
+    }
+
+    .gamesta-blog-card,
+    .gamesta-blog-card img {
+        max-width: 100%;
+    }
+
+    .community-container {
+        /* margin: 10px; */
+    }
+
+    .technical-container {
+        padding: 0 10px;
+    }
+
+    .t-card {
+        /* width: 100%; */
+    }
+
+    .card-img {
+        right: 0%;
     }
 
 
