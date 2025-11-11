@@ -254,13 +254,13 @@ nav {
 
 .img-3 {
     position: absolute;
-    top: 41%;
+    top: 42%;
     right: 42%;
     z-index: 2;
     /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 93%); */
 }
 
-.img-4{
+.img-4 {
     position: absolute;
     top: -45%;
     left: 14%;
@@ -2190,6 +2190,7 @@ footer {
         top: 70%;
         left: 0% !important;
     }
+
     .img-4 {
         width: 70%;
         top: -43%;
@@ -4502,6 +4503,10 @@ footer {
 
 
 @media only screen and (min-width: 1450px) and (max-width: 2560px) {
+
+    .img-3 {
+        right: 30%;
+    }
 
     .future-card-container {
         width: 1145px;
