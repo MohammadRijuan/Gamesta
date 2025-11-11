@@ -747,6 +747,13 @@ nav {
     right: 0%;
 }
 
+.play-svg-1{
+    display: none;
+}
+.play-svg-2{
+    display: none;
+}
+
 .play-bg {
     max-width: 1138px;
     height: 144px;
@@ -2453,9 +2460,11 @@ footer {
         top: 1%;
         right: -38%;
     }
+    
 
     .play-bg {
         height: 100%;
+        position: relative;
     }
 
     .play-head1 {
@@ -2466,6 +2475,9 @@ footer {
     }
 
     .play-head {
+        /* width: 340px; */
+        position: absolute;
+        right: 0%;
         font-size: 30.21px;
         margin: 0;
         padding-top: 5%;
@@ -2484,8 +2496,8 @@ footer {
     }
 
     .play-2-card-container {
-        grid-template-columns: 1fr;
-        row-gap: 48px;
+        display: flex;
+        flex-direction: column;
     }
 
     .play-card {
@@ -2502,6 +2514,19 @@ footer {
     .play-card:nth-child(even) {
         text-align: right;
         align-items: flex-end;
+    }
+
+    .play-svg-1 {
+        display: block;
+        position: absolute;
+        top: 37%;
+        left: -25%;
+    }
+    .play-svg-2 {
+        display: block;
+        position: absolute;
+        top: 78%;
+        left: -25%;
     }
 
     /* carosel */
