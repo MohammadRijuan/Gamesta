@@ -2570,8 +2570,9 @@ footer {
         left: 4%;
     }
 
-    .agency-bg1 {
-        /* display: none; */
+    .agency-bg1{
+        top: -5%;
+        left: 3%;
     }
 
     .agency-word {
