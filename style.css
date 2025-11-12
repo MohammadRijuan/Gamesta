@@ -2176,7 +2176,7 @@ footer {
 
     .nav-items {
         position: absolute;
-        top: 6%;
+        top: 70%;
         right: 0;
         width: 50%;
         background: black;
@@ -2195,6 +2195,7 @@ footer {
     .nav-items.active {
         display: flex;
         z-index: 2;
+        height: 300px;
     }
 
     .nav-items li a {
