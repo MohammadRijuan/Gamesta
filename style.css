@@ -268,13 +268,13 @@ nav {
 }
 
 .img-3 {
-    /* position: absolute;
-    top: 42%;
-    right: 42%;
-    z-index: 2; */
-    top: 0%;
+    position: absolute;
+    top: 29%;
+    right: 7%;
+    z-index: 2;
+    /* top: 0%;
     left: 0%;
-    transform: translate(-263%, -45%);
+    transform: translate(-263%, -45%); */
 
 }
 
@@ -282,6 +282,10 @@ nav {
     position: absolute;
     top: -45%;
     left: 14%;
+}
+
+.img-10{
+    display: none;
 }
 
 .hero-title {
@@ -2154,6 +2158,7 @@ footer {
     nav {
         padding: 6px 12px;
         margin-top: 18px;
+        gap: 10px;
     }
 
     .logo img {
@@ -2275,11 +2280,12 @@ footer {
 
     .her-img {
         max-width: 100%;
-        bottom: -13%;
+        bottom: 24%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        right: 100%;
     }
 
 
@@ -2287,23 +2293,35 @@ footer {
     .img-1 {
         margin-right: 0;
         max-width: 89%;
+        display: none;
     }
 
     .img-2 {
         width: 79%;
         top: -34%;
         right: -4%;
+        display: none;
     }
 
     .img-3 {
         width: 52%;
         transform: translate(-182%, -65%);
+        display: none;
     }
 
     .img-4 {
         width: 70%;
         top: -43%;
         left: 20%;
+        display: none;
+    }
+
+    .img-10{
+        display: block;
+        clip-path: polygon(0 0, 100% 0, 100% 18%, 0 18%);
+        position: absolute;
+        top: 0%;
+        left: 0%;
     }
 
     /* dapp */
@@ -4204,8 +4222,9 @@ footer {
     }
 
     .img-3 {
-        max-width: 100%;
-        transform: translate(-257%, -110%);
+        max-width: 674px;
+        top: 48%;
+        right: 12%;
     }
 
     /* blog */
@@ -4574,8 +4593,10 @@ footer {
     }
 
     .img-3 {
-        max-width: 80%;
-        transform: translate(-187%, -47%);
+        max-width: 551px;
+        top: 40%;
+        right: 18px;
+        z-index: 2;
     }
 
     .img-4 {
@@ -4672,9 +4693,6 @@ footer {
 
 @media only screen and (min-width: 1450px) and (max-width: 2560px) {
 
-    .img-3 {
-        right: 30%;
-    }
 
     .future-card-container {
         width: 1145px;
