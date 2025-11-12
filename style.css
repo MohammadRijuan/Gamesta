@@ -29,11 +29,13 @@ body {
     font-family: 'Euclid Circular A';
     src: url(./asset/Euclid\ Circular\ A\ Regular.ttf);
 }
+
 @font-face {
     font-family: 'Neue Machina-regular';
     src: url('./asset/NeueMachina-Regular.otf');
     font-weight: 400;
 }
+
 @font-face {
     font-family: 'Neue Machina-light';
     src: url('./asset/NeueMachina-Light.otf');
@@ -266,11 +268,14 @@ nav {
 }
 
 .img-3 {
-    position: absolute;
+    /* position: absolute;
     top: 42%;
     right: 42%;
-    z-index: 2;
-    /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 93%); */
+    z-index: 2; */
+    top: 0%;
+    left: 0%;
+    transform: translate(-263%, -45%);
+
 }
 
 .img-4 {
@@ -461,7 +466,7 @@ nav {
 
 .group {
     position: absolute;
-        top: 24%;
+    top: 24%;
     right: 23%;
     width: 184px;
     transform: rotate(-6deg);
@@ -609,8 +614,8 @@ nav {
     left: 32%;
     box-shadow:
         5px 35px 20px -30px rgba(210, 66, 170, 0.3),
-        0 10px 0px -15px rgba(39, 58, 65, 0.2),       
-        0 0 0px -10px rgba(255, 234, 249, 0.5);    
+        0 10px 0px -15px rgba(39, 58, 65, 0.2),
+        0 0 0px -10px rgba(255, 234, 249, 0.5);
 }
 
 .card-2 {
@@ -620,9 +625,9 @@ nav {
 
     box-shadow:
         5px 35px 20px -30px rgba(14, 199, 66, 0.3),
-      
+
         0 10px 0px -15px rgba(39, 58, 65, 0.2),
-       
+
         0 0 0px -10px rgba(238, 255, 243, 0.4);
 
 
@@ -634,15 +639,15 @@ nav {
     right: 18%;
     box-shadow:
         5px 35px 20px -30px rgba(95, 14, 199, 0.3),
-        0 10px 0px -15px rgba(39, 58, 65, 0.2),  
-        0 0 0px -10px rgba(248, 243, 255, 0.5);  
+        0 10px 0px -15px rgba(39, 58, 65, 0.2),
+        0 0 0px -10px rgba(248, 243, 255, 0.5);
 }
 
-.card-4{
+.card-4 {
     box-shadow:
-        5px 35px 20px -30px rgba(56, 72, 78, 0.15),  
-        0 10px 0px -15px rgba(39, 58, 65, 0.2),   
-        0 0 0px -10px rgba(245, 249, 250, 0.5);  
+        5px 35px 20px -30px rgba(56, 72, 78, 0.15),
+        0 10px 0px -15px rgba(39, 58, 65, 0.2),
+        0 0 0px -10px rgba(245, 249, 250, 0.5);
 }
 
 
@@ -651,9 +656,9 @@ nav {
     right: 26%;
     bottom: -10%;
     box-shadow:
-        5px 35px 20px -30px rgba(56, 72, 78, 0.2),  
-        0 10px 0px -15px rgba(39, 58, 65, 0.2),     
-        0 0 0px -10px rgba(245, 249, 250, 0.5);  
+        5px 35px 20px -30px rgba(56, 72, 78, 0.2),
+        0 10px 0px -15px rgba(39, 58, 65, 0.2),
+        0 0 0px -10px rgba(245, 249, 250, 0.5);
 }
 
 
@@ -746,11 +751,12 @@ nav {
     color: var(--font-primary-font-color);
 }
 
-.two{
-    color:#00B3E8;
+.two {
+    color: #00B3E8;
 }
-.twoo{
-    color:#0EC742;
+
+.twoo {
+    color: #0EC742;
 
 }
 
@@ -769,10 +775,11 @@ nav {
     right: 0%;
 }
 
-.play-svg-1{
+.play-svg-1 {
     display: none;
 }
-.play-svg-2{
+
+.play-svg-2 {
     display: none;
 }
 
@@ -836,7 +843,7 @@ nav {
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
-    letter-spacing: 0em ;
+    letter-spacing: 0em;
     color: #38484E;
     max-width: 582px;
     margin: 0 auto;
@@ -1176,6 +1183,7 @@ nav {
     color: var(--font-primary-font-color);
     margin-top: 32.77px;
 }
+
 .twenty {
     /* margin-left: 0%; */
     left: 50%;
@@ -1566,7 +1574,7 @@ nav {
 
 /* technical */
 .technical-container {
-    max-width: 1440px;
+    max-width: 1174px;
     padding: 0 133px 0 133px;
     margin: 0 auto;
 }
@@ -1787,7 +1795,7 @@ nav {
 }
 
 .advisors-container {
-    max-width: 1440px;
+    max-width: 1152px;
     margin: 0 auto 62px auto;
     padding: 0 156px 0 132px;
 }
@@ -1846,7 +1854,7 @@ nav {
 }
 
 .partner {
-    max-width: 1440px;
+    max-width: 1174px;
     padding: 60px 133px 62px 133px;
     margin: 0 auto;
 }
@@ -1898,7 +1906,7 @@ nav {
 
 /* blog */
 .gamesta-blog-container {
-    max-width: 1440px;
+    max-width: 1174px;
     margin: 0 auto;
     padding: 114.19px 133px 67.47px 133px;
 }
@@ -2156,8 +2164,9 @@ footer {
     .toggle-btn {
         display: flex;
         width: 26px;
-        height: 20px;
+        /* height: 20px; */
         z-index: 20;
+        /* position: relative; */
     }
 
     .nav-items {
@@ -2202,7 +2211,7 @@ footer {
 
     /* hero */
     .hero {
-        margin-top: -14.5%;
+        margin-top: -52px;
     }
 
     .hero-bg {
@@ -2214,6 +2223,15 @@ footer {
         padding-top: 48px;
         padding-left: 16px;
         max-height: 100%;
+    }
+
+    .hero-bg .her-img {
+        max-width: 100%;
+        bottom: -13%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .hero-title {
@@ -2278,9 +2296,8 @@ footer {
     }
 
     .img-3 {
-        width: 31%;
-        top: 70%;
-        left: 0% !important;
+        width: 52%;
+        transform: translate(-182%, -65%);
     }
 
     .img-4 {
@@ -2343,8 +2360,8 @@ footer {
 
     .group {
         width: 30%;
-        top: 17.5%;
-        right: 9%;
+        top: 18%;
+        right: 5%;
     }
 
     .group h6 {
@@ -2362,6 +2379,9 @@ footer {
     .q4 h6 {
         font-size: 8.34px;
         /* padding: 5.47px 9.48px; */
+        height: 20.66px;
+        text-align: center;
+        padding-top: 5.37px;
     }
 
     .dapp-card-container {
@@ -2490,7 +2510,7 @@ footer {
         top: 1%;
         right: -38%;
     }
-    
+
 
     .play-bg {
         height: 100%;
@@ -2552,6 +2572,7 @@ footer {
         top: 37%;
         left: -25%;
     }
+
     .play-svg-2 {
         display: block;
         position: absolute;
@@ -2674,13 +2695,17 @@ footer {
         gap: 0px;
     }
 
-    .content-2{
+    .content-2 {
         padding-top: 60px;
     }
 
     .content-1 img,
     .content-2 img {
         max-width: 100%;
+    }
+
+    .twenty {
+        transform: translateX(0);
     }
 
     .svg-4 {
@@ -3097,7 +3122,7 @@ footer {
         background-position: center;
         background-repeat: no-repeat;
         padding: 0 16px 0 16px;
-        
+
     }
 
     .community-container {
@@ -3111,7 +3136,7 @@ footer {
         max-width: 100%;
         font-size: 25.48px;
         max-width: 208px;
-        margin:-42px auto 0 auto;
+        margin: -42px auto 0 auto;
         /* padding-top: 12%; */
     }
 
@@ -4179,8 +4204,8 @@ footer {
     }
 
     .img-3 {
-        top: 49%;
-        left: 0%;
+        max-width: 100%;
+        transform: translate(-257%, -110%);
     }
 
     /* blog */
@@ -4549,9 +4574,14 @@ footer {
     }
 
     .img-3 {
-        max-width: 43%;
-        top: 40%;
-        right: 3%;
+        max-width: 80%;
+        transform: translate(-187%, -47%);
+    }
+
+    .img-4 {
+        max-width: 53%;
+        top: -43%;
+        left: 46%;
     }
 
     .dapp-bg {
